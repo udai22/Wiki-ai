@@ -14,7 +14,7 @@ from dataclasses import dataclass, replace
 
 import swisseph as swe
 
-from .constants import (DEBILITATION, MOOLATRIKONA, NATURAL_ENEMIES, NATURAL_FRIENDS,
+from .constants import (DEBILITATION, EXALTATION, MOOLATRIKONA, NATURAL_ENEMIES, NATURAL_FRIENDS,
                         SIGN_LORD)
 from .special import HORA_ORDER, WEEKDAY_LORD, sripati, sun_times
 from .vargas import varga_sign
@@ -35,14 +35,17 @@ SV_POINTS = {"MT": 45, "Own": 30, "Great friend": 22.5, "Friend": 15, "Neutral":
 class Options:
     houses: str = "sign"            # kendradi bala: "sign" (whole sign), "sripati", "equal"
     mt_in_vargas: bool = False      # moolatrikona (45) also in divisional charts, by sign
+    exalt_in_vargas: float = 0      # points for exaltation sign in a varga (0 = not used)
     natonnata: str = "apparent"     # "apparent" (Sun's hour angle) or "sunset_mid" (night mid)
     moon_paksha_double: bool = True
     mercury_benefic: bool = True    # Mercury conjunct only Venus (benefic) and Rahu here
     hora: str = "equal"             # "equal" 1-hour horas from sunrise, or "unequal"
-    abda_masa: str = "ahargana"     # "ahargana" (Raman's Kali-day count) or "none"
+    abda_masa: str = "ahargana"     # "ahargana" (Raman's Kali-day count), "solar", "none"
+    tribhaga_night: tuple = ("Moon", "Venus", "Mars")
     ayana: str = "ecliptic"         # declination of the ecliptic point, or "true" (with latitude)
     sun_ayana_double: bool = True
-    sun_moon_chesta: bool = True    # Sun's chesta = ayana bala, Moon's = paksha bala
+    sun_chesta: bool = True         # Sun's chesta = its (single) ayana bala
+    moon_chesta: bool = True        # Moon's chesta = its (single) paksha bala
     chesta: str = "mean"            # "mean" (seeghra kendra from modern mean elements)
     drik_full_jup_mer: bool = False # add Jupiter's and Mercury's aspects in full, not 1/4
     special_aspects: str = "raman"  # extra virupas for Ma 4/8, Ju 5/9, Sa 3/10
@@ -78,6 +81,8 @@ def varga_dignity(chart, p, n, opt: Options) -> str:
                 return "MT"
         elif opt.mt_in_vargas:
             return "MT"
+    if opt.exalt_in_vargas and s == EXALTATION[p][0]:
+        return "Exalted"
     lord = SIGN_LORD[s]
     if lord == p:
         return "Own"
@@ -85,7 +90,8 @@ def varga_dignity(chart, p, n, opt: Options) -> str:
 
 
 def saptavargaja(chart, p, opt: Options):
-    return sum(SV_POINTS[varga_dignity(chart, p, n, opt)] for n in SAPTAVARGAS)
+    pts = dict(SV_POINTS, Exalted=opt.exalt_in_vargas)
+    return sum(pts[varga_dignity(chart, p, n, opt)] for n in SAPTAVARGAS)
 
 
 def ojayugma(chart, p):
@@ -158,7 +164,7 @@ def paksha(chart, p, opt: Options):
     return a if benefic else 60 - a
 
 
-def tribhaga(chart, p):
+def tribhaga(chart, p, opt: Options = Options()):
     if p == "Jupiter":
         return 60
     t = sun_times(chart)
@@ -167,7 +173,7 @@ def tribhaga(chart, p):
         lord = ["Mercury", "Sun", "Saturn"][min(k, 2)]
     else:
         k = int(3 * (chart.jd - t["sunset"]) / (t["next_sunrise"] - t["sunset"]))
-        lord = ["Moon", "Venus", "Mars"][min(k, 2)]
+        lord = opt.tribhaga_night[min(k, 2)]
     return 60 if p == lord else 0
 
 
@@ -182,6 +188,24 @@ def abda_masa_lords(chart):
     year = WEEKDAY_LORD[(fri + (a // 360) * 360) % 7]
     month = WEEKDAY_LORD[(fri + (a // 30) * 30) % 7]
     return year, month
+
+
+def _sun_ingress_before(chart, target):
+    def lon(jd):
+        return swe.calc_ut(jd, swe.SUN, chart.flags)[0][0]
+    jd = chart.jd - (lon(chart.jd) - target) % 360 / 0.9856
+    for _ in range(30):
+        jd -= ((lon(jd) - target + 180) % 360 - 180) / 0.9856
+    return jd
+
+
+def solar_lords(chart):
+    """Alternative year/month lords: weekday lords of the (civil) day on which the Sun last
+    entered sidereal Aries, and the sign it now occupies."""
+    def lord(jd):
+        return WEEKDAY_LORD[(swe.day_of_week(jd + chart.tz / 24) + 1) % 7]
+    sun = chart.points["Sun"]
+    return lord(_sun_ingress_before(chart, 0)), lord(_sun_ingress_before(chart, sun.sign * 30))
 
 
 def hora_lord(chart, opt: Options):
@@ -199,8 +223,8 @@ def hora_lord(chart, opt: Options):
 def lords_bala(chart, p, opt: Options):
     t = sun_times(chart)
     out = 0
-    if opt.abda_masa == "ahargana":
-        y, m = abda_masa_lords(chart)
+    if opt.abda_masa != "none":
+        y, m = abda_masa_lords(chart) if opt.abda_masa == "ahargana" else solar_lords(chart)
         out += 15 * (p == y) + 30 * (p == m)
     out += 45 * (p == t["vara_lord"]) + 60 * (p == hora_lord(chart, opt))
     return out
@@ -334,7 +358,7 @@ def shadbala(chart, opt: Options = Options()) -> dict:
         r["dig"] = dig(chart, p)
         r["natonnata"] = natonnata(chart, p, opt)
         r["paksha"] = paksha(chart, p, opt)
-        r["tribhaga"] = tribhaga(chart, p)
+        r["tribhaga"] = tribhaga(chart, p, opt)
         r["lords"] = lords_bala(chart, p, opt)
         r["ayana"] = ayana(chart, p, opt)
         rows[p] = r
@@ -345,7 +369,8 @@ def shadbala(chart, opt: Options = Options()) -> dict:
         r["yuddha"] = yud[p]
         r["kala"] = sum(r[k] for k in ("natonnata", "paksha", "tribhaga", "lords", "ayana",
                                         "yuddha"))
-        r["chesta"] = chesta(chart, p, opt) if (p not in ("Sun", "Moon") or opt.sun_moon_chesta) else 0
+        use = {"Sun": opt.sun_chesta, "Moon": opt.moon_chesta}.get(p, True)
+        r["chesta"] = chesta(chart, p, opt) if use else 0.0
         r["naisargika"] = NAISARGIKA[p]
         r["drik"] = drik(chart, p, opt)
         r["total"] = r["sthana"] + r["dig"] + r["kala"] + r["chesta"] + r["naisargika"] + r["drik"]
