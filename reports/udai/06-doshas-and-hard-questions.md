@@ -8,7 +8,7 @@ This chapter has two parts.
 - **Part B** prepares answers to the questions a person most often asks.
 
 The tags are the ones used in the [master map](00-master-map.md):
-- **[Robust]** holds from about 21:05 to 22:41.
+- **[Robust]** holds from about 20:51 to 22:41 (−43.5 to +66 min).
 - **[Moderate]** means the dates slide but the conclusion holds.
 - **[Time-sensitive]** depends on the exact minute.
 
@@ -79,11 +79,11 @@ The real nodal story in this chart is **Rahu 1°44′ from Venus**, and the [Par
 | **Pitru dosha** | Not a BPHS term. Modern lists use the Sun with Rahu, Ketu or Saturn; Rahu in the 9th; or an afflicted 9th house or 9th lord. BPHS's *purva-janma shapa* (pitri-shapa) chapter uses Sun combinations involving the 5th, in the context of progeny. | The Sun has no node. Saturn aspects the Sun (3rd aspect). The 9th lord Mercury shares Cancer with Rahu, 18½° apart. Ketu aspects the 9th only under node aspects. The 5th house is empty, and the Sun is not debilitated. | **The BPHS form is absent. A partial form exists on generous modern lists** (Saturn aspecting the Sun; 9th lord with Rahu). [Robust] as to the facts; the label is contested. |
 | **Guru Chandal** | Jupiter conjoined with Rahu, or by some extensions Ketu. Looser: aspected by them. | Jupiter is in Aries, with no node in the sign, and neither node's aspect reaches Aries. Jupiter sits in Ashwini, a Ketu nakshatra, which only the loosest writers count. | **Absent** [Robust]. Note one D7 echo in A6. |
 | **Shrapit** | Saturn conjoined with Rahu (a modern term). | Saturn and Rahu are in different signs with no mutual aspect. Saturn's 10th aspect does fall on Ketu, but that is not this dosha. | **Absent** [Robust] |
-| **Grahan (eclipse) dosha** | The Sun or Moon conjoined with a node. Some extend it to node aspects, or to birth near an eclipse. | Neither luminary is with a node. Ketu's 9th aspect reaches the Moon only under the minority 5/7/9 node-aspect view. No eclipse falls close to the birth date. | **Absent.** Only a minority "aspect" form applies. [Robust] |
+| **Grahan (eclipse) dosha** | The Sun or Moon conjoined with a node. Some extend it to node aspects, or to birth near an eclipse. | Neither luminary is with a node. Ketu's 9th aspect reaches the Moon only under the minority 5/7/9 node-aspect view. No eclipse falls close to the birth date: the nearest were a partial lunar eclipse on 28 Jul 1999 (+36 days) and the total solar eclipse of 11 Aug 1999 (+50 days). | **Absent.** Only a minority "aspect" form applies. [Robust] |
 | **Kemadruma** | Nothing (Sun and nodes excluded) in the 2nd or 12th from the Moon. | Mars occupies the 2nd from the Moon. | **Absent.** It would be cancelled anyway: the Sun is in a kendra from the Moon (the 10th), and the Moon is bright and vargottama. [Robust] |
 | **Sakata** | *Phaladeepika form:* the Moon 6th, 8th or 12th from Jupiter, cancelled if the Moon is in a kendra from the lagna. *Nabhasa form (BPHS/Saravali):* all planets in the 1st and 7th. | The Moon is **6th from Jupiter** and Jupiter is 8th from the Moon, so the Phaladeepika form is present. Its own cancellation fails, because the Moon is in the 9th, not a kendra. Other lists give relief: Jupiter is in a kendra from the lagna, and the Moon is strong (waxing, vargottama, in a friend's sign). The Nabhasa form is absent. | **Present in a mild, mitigated form** [Robust]. The texts describe fortune that rises and falls "like a cart wheel" and is then re-earned. This is the same 6/8 Moon–Jupiter geometry that removes Gaja Kesari. |
 | **Visha (Vish) yoga / Punarphoo** | Saturn conjoined with or aspecting the Moon. | **D1: absent.** Saturn aspects Gemini, Libra and Capricorn, and its rashi drishti doesn't reach Virgo. **D9: the Moon and Saturn are conjunct in Virgo**, and both D9 placements are robust. | **D1 absent [Robust]. A D9 Moon–Saturn conjunction is present.** Jaimini readers read it as Saturn *in the karakamsa* (steady, known-for-work) rather than as poison. Some modern readers link a D9 Moon–Saturn to emotional seriousness and to commitment that comes later. |
-| **Daridra yogas** | For example: the lagna lord in the 6th, 8th or 12th with malefics; the 11th lord in a dusthana; the 5th and 9th lords in the 6th or 12th (BPHS ch. 42 and Phaladeepika give variants). | The lagna lord is in the 4th. The 11th lord Mars is in the 10th. The 5th and 9th lords are in the 7th. The only weak spot is that the lagna and 2nd lord Saturn is debilitated, and its neecha-bhanga is cancelled five to six times over. | **Absent** [Robust] |
+| **Daridra yogas** | For example: the lagna lord in the 6th, 8th or 12th with malefics; the 11th lord in a dusthana; the 5th and 9th lords in the 6th or 12th (BPHS ch. 42 and Phaladeepika give variants). | The lagna lord is in the 4th. The 11th lord Mars is in the 10th. The 5th and 9th lords are in the 7th. The only weak spot is that the lagna and 2nd lord Saturn is debilitated, and its debilitation is cancelled by five or six listed rules (resting on three underlying placements; see ch. 01 §1.1). | **Absent** [Robust] |
 | **Panchanga at birth** | Gandamoola nakshatra, Vishti karana, and inauspicious nitya yogas. | The Moon is in Chitra, which is not gandamoola. The tithi is Shukla Dashami, a Tuesday, in Taitila karana (not Vishti). The nitya yoga is **Parigha**, which muhurta texts list among the less favourable yogas. | **Minor.** Parigha is a muhurta (electional) concern and carries almost no weight in natal judgement. [Robust] |
 
 ## A4. Gandanta, for every point
@@ -119,16 +119,16 @@ Mercury (1°28′ Cancer) and the Moon (1°28′ from the end of Virgo) are both
 
 ## A6. Sade Sati and the Saturn-from-Moon cycle
 
-The Moon is in Virgo. Dates below are Lahiri ingresses at one-day resolution.
+The Moon is in Virgo. Dates below are Lahiri ingresses, in IST.
 
 | Phase | Dates | Age | Concurrent dasha |
 |---|---|---|---|
 | **Ashtama Shani at birth** (Saturn in Aries, 8th from the Moon) | until 7 Jun 2000 | 0 | Ma/Sa |
-| **First Sade Sati** | brief Leo touch 1 Nov 2006 – 11 Jan 2007; **16 Jul 2007 – 3 Nov 2014** | 7–15 | Ra/Ju, Ra/Sa, Ra/Me |
-| Kantaka/ardhashtama (Saturn in Sagittarius, 4th) | 27 Jan 2017 – 24 Jan 2020 (out Jun – Oct 2017) | 17–20 | Ra/Ve, Ra/Su, Ra/Mo |
-| Kantaka (Pisces, 7th): **now** | 30 Mar 2025 – 3 Jun 2027 | 25–27 | Ju/Sa, Ju/Me |
+| **First Sade Sati** | brief Leo touch 1 Nov 2006 – 10 Jan 2007; **16 Jul 2007 – 2 Nov 2014** | 7–15 | Ra/Ju, Ra/Sa, Ra/Me |
+| Kantaka/ardhashtama (Saturn in Sagittarius, 4th) | 26 Jan 2017 – 24 Jan 2020 (out Jun – Oct 2017) | 17–20 | Ra/Ve, Ra/Su, Ra/Mo |
+| Kantaka (Pisces, 7th): **now** | 29 Mar 2025 – 3 Jun 2027 | 25–27 | Ju/Sa, Ju/Me |
 | **Ashtama Shani** (Aries, 8th; also the Saturn return) | 3 Jun 2027 – 17 Apr 2030, out Oct 2027 – Feb 2028 and Aug – Oct 2029 | 28–30 | Ju/Me, Ju/Ke, Ju/Ve |
-| **Second Sade Sati** | **28 Aug 2036 – 12 Dec 2043**, with a last Libra touch Jun – Aug 2044 | 37–44 | Ju/Ra, Sa/Sa, Sa/Me |
+| **Second Sade Sati** | **27 Aug 2036 – 11 Dec 2043**, with a last Libra touch Jun – Aug 2044 | 37–44 | Ju/Ra, Sa/Sa, Sa/Me |
 
 **Where the masters disagree.**
 - **Many commentators** hold that Sade Sati weighs less when Saturn is the lagna lord, as it is here. Saturn's exaltation sign, Libra, also falls inside the cycle.
@@ -372,7 +372,7 @@ The detailed retrospective belongs to another chapter. In brief, **Rahu MD ran f
 - a low 9th SAV;
 - Rahu on the yogakaraka.
 
-**The tradition's own summary** is *neecha-bhanga*: **a chart that starts low and builds**. It fits a slow, compounding life better than a lucky one. Confidence that this is the honest overall shape: high. Every school in chapters 01–05 converged on it.
+**The tradition's own summary** is *neecha-bhanga*: **a chart that starts low and builds**. It fits a slow, compounding life better than a lucky one. Confidence that this is the honest overall shape: high. The Vedic schools in chapters 01–04 converge on it. The Hellenistic reading in chapter 05 frames Saturn as supported (in a Venus-ruled sign, with the sect benefic as its ruler), not as starting low.
 
 ## B11. "Am I going to be rich or famous?"
 

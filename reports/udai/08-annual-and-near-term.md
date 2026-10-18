@@ -81,11 +81,12 @@ It is often said that the varsha lagna "depends on the return moment, not the bi
 | Muntha lord | Mars | 9.9 | none (6th, blind) |
 | Janma lagna lord | Saturn | 6.8 | 4th (open) |
 | Varsha lagna lord | Jupiter | **16.2** | none (8th, blind) |
-| Tri-rashi pati (Sag, night) | Saturn | 6.8 | 4th |
+| Tri-rashi pati (Sag, night) | Jupiter *(verify in JHora)* | **16.2** | none (8th, blind) |
 | Moon-sign lord (night) | Mercury | 7.6 | none (8th) |
 
 - Jupiter is easily the strongest planet, but from the 8th it cannot see the lagna.
-- **Saturn is the only office-holder that aspects the lagna, so by Neelakanthi's rule Saturn is the Varshesha.** It holds two offices (natal lagna lord and tri-rashi pati) but is weak (6.8).
+- **Saturn is the only office-holder that aspects the lagna, so by Neelakanthi's rule Saturn is the Varshesha.** It holds one office (natal lagna lord) and is weak (6.8).
+- *Tri-rashi pati: verify in JHora.* The standard Neelakanthi table gives Sagittarius Saturn by day and **Jupiter by night**, so this night chart's tri-rashi pati is Jupiter, which also holds the varsha lagna lordship. This matches the Aries night chart for 2027 below, where the table gives Jupiter. Jupiter is blind in the 8th, so the year lord is Saturn either way.
 - Classically, a weak year lord in a kendra (the varsha 4th) means results that are steady but must be worked for. The year's support comes through home, foundations and routine more than through windfalls.
 - There is a softer reading too. The varsha lagna lord, Jupiter, is exalted, and Saturn is the natal lagna lord. The year therefore "belongs" to Udai's own agenda, even if it moves slowly.
 
@@ -145,7 +146,7 @@ It is often said that the varsha lagna "depends on the return moment, not the bi
 | Moon | Cap 18°45′ | 10 | 1 |
 | Mars | Leo 23°32′ | 5 | 8 |
 | Mercury | Gem 7°42′ R | 3 | 6 |
-| Jupiter | Can 29°28′ (last degree, two days before entering Leo) | 4 | 7 |
+| Jupiter | Can 29°28′ (last degree, three days before entering Leo) | 4 | 7 |
 | Venus | **Tau 23°14′ (own sign)** | 2 | 5 |
 | **Saturn** | **Ari 1°44′ (debilitated), 3′ from the varsha lagna** | 1 | 4 |
 | Rahu / Ketu | Cap / Can 17°45′ | 10 / 4 | 1 / 7 |
@@ -267,7 +268,7 @@ The band is ±3 weeks, so a later birth gives earlier dates. Each pratyantar is 
 | Ju/Me/**Mo** | 13 May – 21 Jul 2027 | Atmakaraka and 7th lord: partners, the public, emotional decisions; soul-level choices. It meets Saturn's Aries ingress and the half nodal return |
 | Ju/Me/**Ma** | 21 Jul – 7 Sep 2027 | Mars, lord of the 4th and 11th with dig bala in the 10th: drive, property, gains. Friction with Saturn stationing opposite natal Mars (9 Aug) |
 | Ju/Me/**Ra** | 7 Sep 2027 – 9 Jan 2028 | Rahu in the 7th in Ashlesha, while transit Rahu crosses the lagna: ambition, technology or foreign links, unconventional offers. Watch overcommitment |
-| Ju/Me/**Ju** | 9 Jan – 29 Apr 2028 | Lord of the 3rd and 12th: mentors, study, travel, expenditure. Transit Jupiter on the natal Moon helps |
+| Ju/Me/**Ju** | 9 Jan – 29 Apr 2028 | Lord of the 3rd and 12th: mentors, study, travel, expenditure. Transit Jupiter in the natal Moon's sign helps (the exact conjunctions come later: 16 Dec 2028, 10 Apr and 16 Aug 2029) |
 | Ju/Me/**Sa** | 29 Apr – 7 Sep 2028 | Lagna lord under ashtama Shani: responsibility, restructuring, patient effort |
 | Ju/Ke/**Ke** | 7 – 26 Sep 2028 | Short, and its band is as long as itself: closure and clearing |
 | Ju/Ke/**Ve** | 26 Sep – 22 Nov 2028 | A Venus lift inside Ketu's antar: creative or relational relief |
@@ -350,7 +351,7 @@ A planet appears to stand still when it stations, and its effect on a natal degr
 **Highlights:**
 - **Jupiter standing on natal Venus, 13 Apr 2027.** This is the most favourable single station in the window. The natural benefic, exalted, pauses on the yogakaraka and Amatyakaraka during Ju/Me/Ve, close to its end (band considered). Classically: agreements, recognition, creative or relational milestones.
 - **Saturn standing on natal Jupiter and opposite natal Mars, 9 Aug 2027.** Saturn tests the mahadasha lord and the 10th-house Mars: workload, property or family responsibility, and patient handling of authority.
-- **Saturn opposite the natal Moon, 24 Dec 2027.** A sober emotional check-in, softened by Jupiter's arrival on the Moon a month earlier (26 Nov 2027).
+- **Saturn opposite the natal Moon, 24 Dec 2027.** A sober emotional check-in, softened by Jupiter's entry into the Moon's sign a month earlier (26 Nov 2027). Jupiter reaches the Moon itself only on 16 Dec 2028, 10 Apr 2029 and 16 Aug 2029.
 
 ---
 
@@ -373,11 +374,11 @@ A planet appears to stand still when it stations, and its effect on a natal degr
 | **Apr 2027** | **Me/Su (1 Apr)** · Mudda Venus | Mars SD 1 Apr; **Jupiter SD on natal Venus 13 Apr**; Venus → Pisces 15 Apr; Mars → Leo 26 Apr | — | M-H | One of the year's best windows for agreements, recognition, creative milestones; official matters |
 | May 2027 | Me/Su → **Me/Mo (13 May)** · Mudda Venus → Sun → Moon | Venus → Aries 10 May; **Rahu over natal Ketu ~21 May** (half return) | — | M | Visibility vs inner pull; decisions about direction |
 | **Jun 2027** | Me/Mo · Mudda Moon → **Rahu (23 Jun)** | **Saturn → Aries 3 Jun** (4th, ashtama from Moon); Venus → Taurus 4 Jun; Mercury SR 10 Jun; **Varsha 29 begins 23 Jun** (Saturn rising); Jupiter → Leo 26 Jun; Aries double transit from 27 Jun | — | M | Home, property, family foundations; a heavier, more serious tone sets in |
-| Jul 2027 | Me/Mo → **Me/Ma (21 Jul)** · Mudda Rahu | Mercury SD 5 Jul; Mars → Virgo (over the natal Moon) 5 Jul | 18 Jul penumbral lunar, Cap 2° (Sun on natal Mercury) | L-M | High emotional energy; pace commitments |
+| Jul 2027 | Me/Mo → **Me/Ma (21 Jul)** · Mudda Rahu | Mercury SD 5 Jul; Mars → Virgo (the natal Moon's sign) 5 Jul | 18 Jul penumbral lunar, Cap 2° (Sun on natal Mercury) | L-M | High emotional energy; pace commitments |
 | **Aug 2027** | Me/Ma · Mudda Rahu → **Jupiter (16 Aug)** | **Saturn SR on natal Jupiter, opposite Mars, 9 Aug**; Mars → Libra (10th, own natal Mars sign) 24 Aug | 2 Aug total solar, Can 16° (H7); 17 Aug penumbral lunar, Cap 30° | M | A career push meets pressure; property and home decisions; effort is rewarded later |
 | Sep 2027 | **Me/Ra (7 Sep)** · Mudda Jupiter | Venus → Virgo 9 Sep | — | M | Ambition, technology or foreign openings; watch overcommitment |
 | **Oct 2027** | Me/Ra · Mudda Jupiter → Saturn (4 Oct) | Mercury SR 7 Oct → SD 28 Oct; **Mars → Scorpio (11th) 8 Oct**; **Saturn back into Pisces 20 Oct** (Aries double transit ends 21 Oct) | — | M-H | Gains through effort; relief from Saturn's pressure on the 4th |
-| **Nov 2027** | Me/Ra · Mudda Saturn | Mars → Sagittarius 18 Nov; **Jupiter → Virgo 26 Nov (9th, on the natal Moon)**; double transits on Virgo (7th lord's sign) and Taurus (5th) from 28 Nov | — | M-H | Dharma, mentors, study, father figures; partnership and creative matters activated |
+| **Nov 2027** | Me/Ra · Mudda Saturn | Mars → Sagittarius 18 Nov; **Jupiter → Virgo 26 Nov (9th, the natal Moon's sign; exact on the Moon only from 16 Dec 2028)**; double transits on Virgo (7th lord's sign) and Taurus (5th) from 28 Nov | — | M-H | Dharma, mentors, study, father figures; partnership and creative matters activated |
 | Dec 2027 | Me/Ra · Mudda Saturn → Mercury (1 Dec) | Venus → Capricorn 15 Dec; **Saturn SD opposite natal Moon 24 Dec**; Mars → Capricorn (lagna) 27 Dec | (next: 12 Jan & 26 Jan 2028) | M | Review commitments; the year closes thoughtfully, and is supported |
 
 ---
@@ -417,7 +418,7 @@ A planet appears to stand still when it stations, and its effect on a natal degr
 
 ## 8.8 How to hold this
 
-The shape is clear: **Nov 2026 – Apr 2027** is open and constructive (Venus pratyantar, Jupiter back in Cancer, Venus Mudda); **Jun – Oct 2027** is weighted (Saturn into Aries and rising in the annual chart); **late Nov 2027** eases things as Jupiter reaches the natal Moon. The eclipses keep asking one question: who Udai is (1st) in relation to whom he works and partners with (7th). Neelakanthi frames the annual chart as a ripening of the natal promise, not a decree; *sapiens dominabitur astris*.
+The shape is clear: **Nov 2026 – Apr 2027** is open and constructive (Venus pratyantar, Jupiter back in Cancer, Venus Mudda); **Jun – Oct 2027** is weighted (Saturn into Aries and rising in the annual chart); **late Nov 2027** eases things as Jupiter enters the natal Moon's sign. The eclipses keep asking one question: who Udai is (1st) in relation to whom he works and partners with (7th). Neelakanthi frames the annual chart as a ripening of the natal promise, not a decree; *sapiens dominabitur astris*.
 
 ---
 

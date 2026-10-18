@@ -17,9 +17,9 @@ Several claims below depend on the exact birth time. Here is the tropical pictur
 | +30 m | 13°34′ Aqu | 24°20′ Sco | 21°46′ Lib | 5°23′ Gem |
 
 - **Tropical Aquarius rising holds only from about −20 min (21:15) to +87 min (23:02).** It does not reach back to −1h20m. If the true time is earlier than 21:15, the tropical chart has Capricorn rising, which is also ruled by Saturn. Sidereal Capricorn holds from −43.5 to +66 min. So the two zodiacs have different safe windows. The tropical window is the more fragile one if the error runs early.
-- **Saturn rules the rising sign in every case** from about −143 min to +87 min, tropical or sidereal. That is the most time-robust fact in the whole chart.
+- **Saturn rules the rising sign in both zodiacs from about −43 min to +87 min.** Tropically alone it holds from −143 to +87 min (Capricorn, then Aquarius). Sidereally the lagna is Sagittarius, ruled by Jupiter, before −43.5 min. Within −43 to +87 min this is the most time-robust fact in the whole chart.
 - **Sun at 0°48′ Cancer.** The Sun entered tropical Cancer at **01:20 IST on 22 June 1999**, so "Cancer for any time that day" is not quite right: a birth before 01:20 would have been Gemini. For any time within ±90 min of 21:35, though, the Sun is in Cancer (0°47′–0°49′). The Sun sign is safe.
-- **Fortune stays in Libra** across ±30 min. **Spirit leaves Taurus for Gemini at about +14 min**, which changes its ruler from Venus to Mercury.
+- **Fortune stays in Libra** across ±30 min. **Spirit leaves Taurus for Gemini at about +11.5 min** (21:46:30), which changes its ruler from Venus to Mercury.
 
 ---
 
@@ -49,7 +49,7 @@ The chart ruler, **Saturn, is the malefic contrary to sect**. In Valens's and Br
 
 **Lot of Fortune: 13°45′ Libra (9th), with the Moon and Mars.** Fortune is the Moon's lot, the "body and circumstance" lot, and it lands in the same sign as the sect light. This placement is consistent across ±30 min.
 
-**Lot of Spirit: 26°54′ Taurus (4th), with Saturn.** Spirit is the lot of intention and vocation. At the recorded time it reinforces Saturn's 4th-house theme: purpose is built from the ground up. After +14 min it moves into Gemini, the 5th house ruled by Mercury, and reads more as play, writing and craft. **Treat Spirit's sign as fragile.**
+**Lot of Spirit: 26°54′ Taurus (4th), with Saturn.** Spirit is the lot of intention and vocation. At the recorded time it reinforces Saturn's 4th-house theme: purpose is built from the ground up. After +11.5 min it moves into Gemini, the 5th house ruled by Mercury, and reads more as play, writing and craft. **Treat Spirit's sign as fragile.**
 
 **Aspects (independent of birth time).**
 - **A fixed T-square:** Saturn 13° Taurus square Venus 15° Leo (with the North Node 14° Leo), and Venus opposite Uranus 16° Aquarius (with the South Node 14° Aquarius). Saturn is also square Uranus (3° orb).
@@ -58,14 +58,14 @@ The chart ruler, **Saturn, is the malefic contrary to sect**. In Valens's and Br
 
 Fixed signs persist and cardinal signs initiate. Psychologically, the chart pairs something that holds with something that pushes.
 
-**Annual profections.** Age 27 began on **22 Jun 2026** and runs to 21 Jun 2027. The profection moves one sign per year, so age 27 activates the **4th house, Taurus**. The **lord of the year is Venus**, and Saturn sits in the profected sign, so Saturn is co-activated. Venus is already being triggered by transit: Jupiter crossed natal Venus on **12 Sep 2026** and opposed the Ascendant on 26 Jul 2026. In traditional terms this is a year about foundations, property, family and inner security, run by the chart's most helpful planet.
+**Annual profections.** Age 27 began on **22 Jun 2026** and runs to 21 Jun 2027. The profection moves one sign per year, so age 27 activates the **4th house, Taurus**. The **lord of the year is Venus**, and Saturn sits in the profected sign, so Saturn is co-activated. Venus is already being triggered by transit: Jupiter crossed natal Venus on **10 Sep 2026** and opposed the Ascendant on 24 Jul 2026. In traditional terms this is a year about foundations, property, family and inner security, run by the chart's most helpful planet.
 
 | Age | From | Profected house / sign | Time-lord | Note |
 |---|---|---|---|---|
 | 27 | 22 Jun 2026 | 4th Taurus | Venus | Saturn in the sign; Jupiter over Venus |
 | 28 | 22 Jun 2027 | 5th Gemini | Mercury | Mercury is the apex of the cardinal T-square |
-| 29 | 22 Jun 2028 | 6th Cancer | Moon | The **Saturn return (Apr 2029)** falls in a year ruled by the sect light; the Sun is in this sign |
-| 30 | 22 Jun 2029 | 7th Leo | Sun | Venus/Node sign; Saturn squares Venus (May 2029) |
+| 29 | 22 Jun 2028 | 6th Cancer | Moon | The **Saturn return (Apr 2029)** falls in a year ruled by the sect light; the Sun is in this sign. Saturn squares Venus (May 2029) |
+| 30 | 22 Jun 2029 | 7th Leo | Sun | Venus/Node sign |
 | 31 | 22 Jun 2030 | 8th Virgo | Mercury | |
 
 *If the true birth time is before 21:15, tropical Capricorn rises and every row shifts by one sign. Age 27 would then be Aries (lord Mars, with Jupiter in it).* For comparison, the sidereal (Capricorn-lagna) profection for age 27 is **also Aries**, and also contains Saturn. In both zodiacs, the "4th-house year with Saturn in it" holds at the recorded time.
@@ -90,19 +90,19 @@ Rudhyar would add a **cycle** reading. The Sun at 0°48′ Cancer and the Moon a
 
 | Transit | Exact | Archetypal theme |
 |---|---|---|
-| Saturn square Sun | 6 Jun & 21 Aug 2025, 21 Feb 2026 | Test of solar identity (done) |
-| Neptune square Sun | 23 Apr & 22 Sep 2025, 23 Feb 2026 | Dissolving or re-imagining the self-image (done) |
-| **Pluto conjunct natal Neptune** | 5 Feb, 16 Aug, 14 Dec 2026 | Deepening the ideals and imagination |
-| **Pluto conjunct Ascendant** | 10 Apr & 5 Jun 2026; 2 Feb, 27 Aug, 9 Dec 2027 | Personal reinvention; Tarnas's "Pluto-at-the-angles" |
+| Saturn square Sun | 6 Jun & 19 Aug 2025, 21 Feb 2026 | Test of solar identity (done) |
+| Neptune square Sun | 22 Apr & 22 Sep 2025, 22 Feb 2026 | Dissolving or re-imagining the self-image (done) |
+| **Pluto conjunct natal Neptune** | 5 Feb, 16 Aug, 12 Dec 2026 | Deepening the ideals and imagination |
+| **Pluto conjunct Ascendant** | 9 Apr & 3 Jun 2026; 1 Feb, 26 Aug, 7 Dec 2027 | Personal reinvention; Tarnas's "Pluto-at-the-angles" |
 | Neptune sextile natal Neptune | May 2026 – Mar 2027 | Generational "spiritual sextile" (~age 28) |
 | Neptune sextile Ascendant | Apr 2027 – Feb 2028 | |
-| Saturn conjunct natal Jupiter | 6 Apr 2028 | Consolidating beliefs and growth |
+| Saturn conjunct natal Jupiter | 5 Apr 2028 | Consolidating beliefs and growth |
 | Saturn square Ascendant | May 2028 – Feb 2029 | Prelude to the return |
-| **Saturn return** (13°25′ Taurus) | **27 Apr 2029** (single exact pass) | The first adult reckoning |
-| Saturn square Venus / Uranus, opposite MC | 15, 19, 25 May 2029 | The return sets off the whole fixed cross within one month |
+| **Saturn return** (13°25′ Taurus) | **26 Apr 2029** (single exact pass) | The first adult reckoning |
+| Saturn square Venus / Uranus, opposite MC | 13, 19, 23 May 2029 | The return sets off the whole fixed cross within one month |
 | Pluto sextile natal Pluto | Apr 2028 – Dec 2029 | |
 | Uranus trine natal Uranus | Jul 2029 – Apr 2030 | Freedom that comes more easily |
-| Jupiter return | 14 May 2023 (done); next **27 Apr 2035** | |
+| Jupiter return | 12 May 2023 (done); next **26 Apr 2035** | |
 | Uranus conjunct natal Sun | Aug 2032 – Jun 2033 | |
 
 Already passed: the Uranus square to natal Uranus (Jun 2022 – Mar 2023) and Uranus conjunct natal Saturn (Jun 2021 – Apr 2022).
@@ -128,7 +128,7 @@ These are **collective** cycles. They describe the weather everyone born at the 
 
 Chizhevsky's percentage splits are secondary-literature figures, his event coding was unblinded, and mainstream history does not accept the solar–revolution link (knowledge file 12).
 
-**Barbault's cyclic index** sums the separations between Jupiter, Saturn, Uranus, Neptune and Pluto. Low values mean the outer planets are clustered, which Barbault read as crisis. Across Udai's life:
+**Barbault's cyclic index** sums the separations between Jupiter, Saturn, Uranus, Neptune and Pluto. Low values mean the outer planets are clustered, which Barbault read as crisis. Across Udai's life (values sampled on 1 July of each year; the birth-date value for 1999 is 790):
 
 | Year | 1999 | 2003 | 2009 | 2014 | 2019 | **2021** | 2025 | 2027 | 2030 | 2034 |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -162,7 +162,7 @@ Source: *Hidden Mysteries* ch. 5–6, as summarised in knowledge file 14. Osho u
 
 | Layer | This chart | Why it is placed here |
 |---|---|---|
-| **Essential** | Saturn-ruled rising (both zodiacs, about −143 to +87 min); night chart; Moon as the sect light/AK; the fixed Saturn–Venus–Uranus T-square; Moon/Mars opposite Jupiter with Mercury at the apex; Sun in Cancer (tropical) / Gemini (sidereal); generational outer planets | Holds across the whole uncertainty window and, in substance, across both zodiacs |
+| **Essential** | Saturn-ruled rising (both zodiacs, about −43 to +87 min; tropical alone −143 to +87); night chart; Moon as the sect light/AK; the fixed Saturn–Venus–Uranus T-square; Moon/Mars opposite Jupiter with Mercury at the apex; Sun in Cancer (tropical) / Gemini (sidereal); generational outer planets | Holds across the whole uncertainty window and, in substance, across both zodiacs |
 | **Semi-essential** | House emphasis (the 9th-house Moon and Fortune, the 7th-house Venus, the 4th-house Saturn); the profection sequence; the *themes* of the Saturn return and of Pluto crossing the rising sign; how the T-square is lived | Holds within −20/+87 min. These are tendencies that run automatically if unseen and open up alternatives once known |
 | **Non-essential** | Exact Lot degrees and Spirit's sign; the MC grand cross; Neptune exactly on the Ascendant; exact dates of transits to the angles; Placidus cusps; any "will X happen in month Y" question | Fragile to minutes of birth time, and also the layer Osho called trivial |
 

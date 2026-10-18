@@ -5,7 +5,7 @@
 This chapter goes past [01-parashari §1.5](01-parashari.md). That section gave the D9 and D10 lagna tables and the Libra cluster in outline. Here every varga is read planet by planet, and every time-sensitive lagna is given with the clock window in which it holds.
 
 **Tags.**
-- **[Robust]** holds for any birth time from 21:05 to 22:41 and under small ayanamsa changes.
+- **[Robust]** holds for any birth time from 20:51 to 22:41 (−43.5 to +66 min) and under small ayanamsa changes.
 - **[Moderate]** depends on convention: ayanamsa, true vs mean node, or which list a text uses.
 - **[Time-sensitive]** changes within minutes of the recorded time.
 

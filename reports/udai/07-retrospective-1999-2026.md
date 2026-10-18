@@ -110,7 +110,7 @@ Eighteen years of the 7th-house node, with its dispositor and star lord both tie
 **Ju/Sa · 19 Nov 2023 → 2 Jun 2026** (start 26 Oct … 13 Dec 2023) · ages 24–26
 - **Lordships:** the lagna lord's sub-period, with Saturn conjunct the mahadasha lord. Texts read this as self, responsibility and money (the 2nd) coming forward: earning, saving, family duty, and a sober review of direction.
 - **Transits:**
-  - Saturn was in the 2nd until 30 Mar 2025, then in the 3rd.
+  - Saturn was in the 2nd until 29 Mar 2025, then in the 3rd.
   - Double transits fell on the 4th (to May 2024) and the 11th (May 2024 – Mar 2025).
 - **Why it matters:** what this period *emphasised* is the strongest single D9/D10 discriminator (7.5).
 
@@ -129,8 +129,8 @@ Eighteen years of the 7th-house node, with its dispositor and star lord both tie
 | 2 Nov 2014 – 26 Jan 2017 (and 21 Jun – 26 Oct 2017) | Scorpio | 3rd / 11th | One of the best Saturn transits |
 | 26 Jan – 21 Jun 2017; **26 Oct 2017 – 24 Jan 2020** | Sagittarius | 4th / 12th | **Dhaiya (kantaka Shani)**, ages 17–20 |
 | **24 Jan 2020 – 29 Apr 2022; 12 Jul 2022 – 17 Jan 2023** | Capricorn | 5th / 1st | **Over the lagna**: exact over the ascendant on 4 Feb 2021, over Ketu on 21 Jan 2022 |
-| 29 Apr – 12 Jul 2022; **17 Jan 2023 – 30 Mar 2025** | Aquarius | 6th / 2nd | Upachaya from the Moon; money and family from the lagna |
-| 30 Mar 2025 – 2 Jun 2027 | Pisces | 7th / 3rd | |
+| 29 Apr – 12 Jul 2022; **17 Jan 2023 – 29 Mar 2025** | Aquarius | 6th / 2nd | Upachaya from the Moon; money and family from the lagna |
+| 29 Mar 2025 – 3 Jun 2027 | Pisces | 7th / 3rd | |
 
 - **Sade Sati: ages 7–15.**
   - Its first entry was 1 Nov 2006, firmly from 16 Jul 2007, and it ended on 2 Nov 2014.
@@ -149,7 +149,7 @@ Eighteen years of the 7th-house node, with its dispositor and star lord both tie
 - **10th:** 6 Apr – 14 Sep 2021 and 21 Nov 2021 – 13 Apr 2022, spanning the change from Ra/Ma to Ju/Ju. On Rao's method this is the textbook adult window for a first career event.
 - **5th and 9th:** Aug 2016 – Sep 2017, in pieces. This fits a study and exam milestone in Ra/Ve.
 - **4th:** 22 Apr 2023 – 1 May 2024, covering the Jupiter return and home or property.
-- **11th:** 1 May 2024 – 30 Mar 2025, gains within Ju/Sa.
+- **11th:** 1 May 2024 – 29 Mar 2025, gains within Ju/Sa.
 - **Earlier windows:** the 10th (May 2013 – Jun 2014) and the 1st and 11th (Nov 2014 – Jul 2015) fell in the teenage years.
 
 ### The Jupiter–Saturn conjunction, 21 Dec 2020  [Robust]
@@ -166,7 +166,7 @@ Eighteen years of the 7th-house node, with its dispositor and star lord both tie
   - **2008–10, on the Capricorn axis, during Ra/Sa.** The 26 Jan 2009 annular eclipse fell 1.0° from the ascendant; others fell opposite Venus (2008) and opposite Mercury (2010).
   - **2013–14, in Libra.** Eclipses fell opposite Saturn (Nov 2013), on Mars (a total lunar eclipse, Apr 2014) and opposite Jupiter (Oct 2014).
   - **2017–18, on the Cancer/Capricorn axis, around the nodal return.** They fell on Ketu and opposite Venus (Aug 2017), on Rahu (Jan 2018), on the ascendant (a total lunar eclipse, 27 Jul 2018, 0.8°) and on Venus (Aug 2018).
-  - **21 Jun 2020:** an annular eclipse on the natal Sun, 0.7°, on the 21st birthday.
+  - **21 Jun 2020:** an annular eclipse on the natal Sun, 0.7°, on the eve of the 21st birthday.
   - **2022–23, in Aries/Libra, during Ju/Ju.** Eclipses fell on Saturn (Nov 2022), on **Jupiter, 0.4°** (20 Apr 2023, three weeks before the return) and near the Moon (Oct 2023).
 - **How eclipses are read:** most readers treat an eclipse on a natal point as opening a six-month "season" for that point's significations, not a single dated event.
 
@@ -197,19 +197,21 @@ Chara periods change on the birthday, 22 June, whatever the birth minute. That g
 
 ---
 
-## 7.4 Western overlays (tropical)  [Robust]
+## 7.4 Western overlays (tropical)  [Robust, except the angle contacts, which are Moderate]
+
+Contacts to the Ascendant and MC are tagged [Moderate]: those points move about 1° every 4 minutes, so a birth-time error slides their dates (chapter 05 §2).
 
 - **Saturn waxing square:** 27 Jul 2006 (age 7).
 - **Saturn opposition to natal Saturn (13°25′ Taurus):**
   - A single exact pass, **30 Oct 2013** (age 14.3).
-  - Saturn then crossed the natal **MC** (16°55′ Scorpio) in Nov 2013, Jul 2014 and Aug 2014.
+  - Saturn then crossed the natal **MC** (16°55′ Scorpio) in Nov 2013, Jul 2014 and Aug 2014 [Moderate].
   - Liz Greene and Erin Sullivan tie the opposition to an adolescent confrontation with rules and authority, and a first sense of a public role.
-- **Saturn over the tropical Moon:** 31 Oct 2011. **Over the tropical Ascendant:** 31 Jan 2021. Each falls within days of its sidereal counterpart, because both describe the same sky.
+- **Saturn over the tropical Moon:** 1 Nov 2011. **Over the tropical Ascendant:** 1 Feb 2021 [Moderate]. Each falls within days of its sidereal counterpart, because both describe the same sky.
 - **Saturn waning square:** May–Jun 2021 and 14 Jan 2022 (age 22).
 - **Uranus conjunct natal Saturn:** 21 Jun 2021, 19 Oct 2021 and 10 Apr 2022. This is a sharp structure-meets-disruption contact that triggers the natal fixed T-square (Saturn–Venus–Uranus).
 - **Uranus waxing square to natal Uranus:** **2 Jun 2022, 21 Nov 2022 and 23 Mar 2023** (age 23). Tarnas and Greene link it to a push for independence from inherited scripts.
 - **Jupiter returns:** 31 May 2011 and 12 May 2023.
-- **Pluto on the Ascendant:** 8 Apr and 3 Jun 2026, continuing into 2027 (chapter 05).
+- **Pluto on the Ascendant:** 9 Apr and 3 Jun 2026, continuing into 2027 (chapter 05) [Moderate].
 
 Mid-2021 to early 2023 is a dense Western cluster, and it overlaps the Vedic one: Saturn on the lagna, the mahadasha change and the 10th-house double transit. **Both traditions point to 2020–23 as the most eventful stretch of the past.**
 
