@@ -1,5 +1,7 @@
 # Business and venture reading (Talis), from the founder's chart
 
+> **Retracted for decision-making (18 Oct 2026).** The fundraising-timing claims here follow the same moving-window pattern as earlier missed predictions (summer, then September 2026). See [SCORECARD.md](SCORECARD.md). Do not use this file to time a raise.
+
 This is tradition, not evidence (see [GROUND-RULES](GROUND-RULES.md)). It reads the **founder's** chart only. Classically, a venture is judged by its own chart: the time, date and place of incorporation or launch, or a prashna (horary chart) cast for the question. Neither is available yet.
 
 ## Natal promise for trade and business [Robust]

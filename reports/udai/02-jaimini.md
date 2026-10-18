@@ -50,7 +50,7 @@ JS 1.1 defines the Atmakaraka as the planet "most advanced in degrees among the 
 
 ## 2. Karakamsa and swamsa  [Robust]
 
-The Moon's navamsa is **Virgo**, the same sign it occupies in the rasi chart (vargottama), and it sits about 1°52′ inside the navamsa, roughly 3.7 hours of clock time from changing. In D1, Virgo is the 9th house, which repeats the theme of dharma and teaching.
+The Moon's navamsa is **Virgo**, the same sign it occupies in the rasi chart (vargottama), and it sits about 1°52′ inside the navamsa, so it entered about 3.7 hours of clock time before birth and leaves about 2.9 hours after (+175 min, ≈00:30 IST on 23 Jun), when it also leaves Virgo itself. In D1, Virgo is the 9th house, which repeats the theme of dharma and teaching.
 
 **Navamsa positions relative to the karakamsa (Virgo = 1)**
 
@@ -200,11 +200,12 @@ The AL and every other pada depend only on the lagna *sign*. They therefore hold
 - GK Mars is 7th from the AL.
 - Rath and PVR treat the AmK in a kendra from the AL as a clear indicator of status through work.
 
-**Lagna, Hora Lagna and Ghatika Lagna** [Time-sensitive]. Sunrise was 06:02 IST.
+**Lagna, Hora Lagna and Ghatika Lagna** [Time-sensitive]. These figures use sunrise at 06:02 IST (upper limb, with refraction).
 - **The current positions.** The Hora Lagna is Virgo 22°45′ and the Ghatika Lagna is Virgo 2°22′, so **the AK Moon occupies both**.
+- **The sunrise convention matters.** With Hindu sunrise (disc centre, no refraction: 06:06 IST, the convention used by the `astro/` engine and Parashara's Light), the HL is Virgo 20°43′ and the GL is **Leo 27°17′**, so the Moon joins the HL only. The double occupation holds only under the 06:02 convention.
 - **The yoga.** Jaimini (and BPHS on special lagnas) counts planets that join the lagna, HL and GL as raja yoga. Here the Moon joins two of the three, not the lagna itself.
 - **How long it holds.**
-  - The HL stays in Virgo from about −45 to +14 min, then becomes Libra (Mars).
+  - The HL stays in Virgo from about −45 to +14 min (−41 to +19 min with 06:06 sunrise), then becomes Libra (Mars).
   - The GL is Virgo only from about −2 to +22 min. Before that it is Leo, and Cancer (Venus, Mercury, Rahu) before about −26 min.
 - Treat this as suggestive, not load-bearing.
 
@@ -246,12 +247,12 @@ In Rao's style, the dasha sign is treated as a temporary lagna.
 
 **The transit backdrop**
 - Transiting Jupiter is **exalted in Cancer** through late 2026 and again in the first half of 2027. It passes over the dasha sign itself, which is a supportive opening.
-- Saturn returns to Aries, the natal AL, around 2028.
+- Saturn returns to Aries, the natal AL: it enters on 3 Jun 2027, retrogrades into Pisces on 20 Oct 2027, and settles there from 23 Feb 2028.
 
 **Antardashas (Rao: twelve equal parts of 10 months, counted backward from the next sign)**
 - **Gemini, Jun 2026 – Apr 2027 (current).** Service and competition: the 6th house, the Sun, A2.
 - **Taurus, Apr 2027 – Feb 2028.** Learning, creativity, students; A3 and A9 are here.
-- **Aries, Feb 2028 – Dec 2028.** The AL, coinciding with Saturn's return over it: tested reputation, and a clear chance to consolidate standing through responsibility.
+- **Aries, Feb 2028 – Dec 2028.** The AL, coinciding with Saturn's transit of it (the exact return, 29 Apr 2029, falls in the next sub-period): tested reputation, and a clear chance to consolidate standing through responsibility.
 - **Pisces, Dec 2028 – Oct 2029.**
 - **Aquarius, Oct 2029 – Aug 2030.** The 11th from the AL: gains.
 - **Capricorn, Aug 2030 – Jun 2031.** The A10.
@@ -281,7 +282,7 @@ For Capricorn lagna both rules still run the sequence backward. The durations ch
 | SJC-style counting, Scorpio → Ketu | Libra 2021–30, then Virgo, then Leo 2032–42 |
 | SJC-style counting, Scorpio → Mars | Leo 2023–33, then Cancer 2033–43 |
 
-**How to use this.** All four variants agree that **Libra (the 10th house with Mars, 7th from the AL) and Cancer (the 7th, holding AmK and DK)** dominate roughly 2013–2045.
+**How to use this.** **Libra (the 10th house with Mars, 7th from the AL)** runs in every variant at some point in 2012–31. The 2030s are **Cancer (the 7th, holding AmK and DK)** or **Leo**, depending on the variant: the SJC variants put Leo in the 2030s, so the variants do not all agree.
 - **Libra** shows career and competition.
 - **Cancer** shows partnership, career through others, and commitment.
 
