@@ -112,7 +112,7 @@ Dewey insisted he was not an astrologer. He did list possible "environmental for
 
 ## 7. Practical recipe: a Dewey-style cycle analysis
 
-The project's engine will include a **`cycles.py`** module with periodogram and Bartels-test functions. The function names below are illustrative; check the module for the actual API.
+The project's engine implements this in **`astro/cycles.py`**: `ratio_to_trend`, `periodogram`, `bartels`, `fit_sine`, `synthesize` and the one-call `dewey_scan`. `bartels()` returns **p**, the probability that the cycle is chance, so lower is better. Periods are given in samples (e.g. years for annual data).
 
 **Step 0 — State the hypothesis first.** Example: "US stock index has a ~19.86-yr cycle phase-locked to Jupiter–Saturn conjunctions." Write down the period and expected phase *before* looking. This is the main defence against false positives.
 
@@ -130,8 +130,10 @@ t = np.arange(len(y)) * dt    # dt = sampling interval in years
 
 **Step 3 — Periodogram.**
 ```python
-freqs, power = cycles.periodogram(y_detr, dt)        # FFT or Lomb–Scargle
-peaks = cycles.find_peaks(freqs, power, top=10)
+from astro import cycles
+y_detr = cycles.ratio_to_trend(series, window=21)       # Dewey detrend (Step 2, option A)
+peaks = cycles.periodogram(y_detr, np.arange(3, 60, 0.1))[:10]   # [(period, amplitude), ...]
+# or all-in-one: cycles.dewey_scan(series, periods, trend_window=21, top=10)
 ```
 Plot power against **period** on a log axis.
 
@@ -140,13 +142,13 @@ Plot power against **period** on a log axis.
 **Step 5 — Bartels test on each candidate.**
 ```python
 for P in candidate_periods:
-    r, p = cycles.bartels(y_detr, period=P, dt=dt)   # p ≈ exp(-r²)
+    p = cycles.bartels(y_detr, P)   # p ≈ exp(-r²), probability the cycle is chance
 ```
 Keep cycles with p < 0.05 **after** correcting for the number of periods tested.
 
-**Step 6 — Fit amplitude and phase.** Least-squares sine fit at the refined period gives crest dates. Check stability by fitting the first half and second half separately: the period and phase should roughly agree.
+**Step 6 — Fit amplitude and phase.** `cycles.fit_sine(y, P)`: least-squares sine fit at the refined period gives crest dates. Check stability by fitting the first half and second half separately: the period and phase should roughly agree.
 
-**Step 7 — Out-of-sample test.** Fit on data up to year *T*, forecast *T*…end, and score the forecast against naive baselines (random walk, climatology). A cycle that fails this is descriptive, not predictive.
+**Step 7 — Out-of-sample test.** `cycles.synthesize(y_train, periods, horizon=n)` projects forward. Fit on data up to year *T*, forecast *T*…end, and score the forecast against naive baselines (random walk, climatology). A cycle that fails this is descriptive, not predictive.
 
 **Step 8 — Synchrony and astronomy (optional).**
 - Compare the period with the astronomical periods table in [10-cycles-thinkers.md](10-cycles-thinkers.md#common-planetary-and-solar-periods-for-matching).
