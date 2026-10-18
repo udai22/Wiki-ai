@@ -97,3 +97,12 @@ def test_cycles_find_planted_cycle():
 def test_great_conjunction_2020():
     dates = [d for d, _ in cycles.great_conjunctions(2019, 2022)]
     assert dates == ["2020-12-21"]
+
+
+def test_birth_time_windows():
+    from astro import rectify
+    res = rectify.sweep(C, 60, 70, step=0.5)
+    assert rectify.window(res["Lagna sign (D1)"]) == (-43.5, 66.0)
+    s, e = rectify.window(res["D9 Navamsa lagna"])
+    assert -6 <= s <= -5 and 6.5 <= e <= 7.5
+    assert len(res["Moon nakshatra-pada"]) == 1  # Moon stays in Chitra-2 all window

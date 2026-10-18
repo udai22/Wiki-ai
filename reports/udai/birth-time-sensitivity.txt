@@ -1,0 +1,46 @@
+Birth-time sensitivity, 90 min before to 90 min after 22 Jun 1999 21:35
+factor                     value now         holds from       to   changes in window
+Lagna sign (D1)            Cap                   -43.5m   +66.0m   
+Lagna nakshatra-pada       Shravana-1             -5.5m    +7.0m   -18m:Uttara Ashadha-4, +7m:Shravana-2, +19m:Shravana-3
+Lagna KP star/sub          Mo/Ma                  -1.0m    +1.5m   -24m:Su/Me, -16m:Su/Ke, -14m:Su/Ve, -6m:Mo/Mo, +2m:Mo/Ra, +9m:Mo/Ju, +16m:Mo/Sa, +23m:Mo/Me, +30m:Mo/Ke
+Lagna KP sub-sub           Sa                     +0.0m    +0.5m   -30m:Ke, -29m:Ve, -28m:Mo, -26m:Ma, -26m:Ra, -25m:Ju, -24m:Me, -23m:Ke, -22m:Ve, -21m:Mo ...
+D2 Hora lagna              Can                    <-90m   +13.0m   +13m:Leo
+D3 Drekkana lagna          Tau                    -5.5m   +31.0m   
+D4 lagna                   Ari                   -14.5m   +13.0m   +13m:Can
+D7 Saptamsa lagna          Vir                   -10.5m    +5.5m   -27m:Leo, +6m:Lib, +21m:Sco
+D9 Navamsa lagna           Ari                    -5.5m    +7.0m   -18m:Pis, +7m:Tau, +19m:Gem
+D10 Dasamsa lagna          Sag                    -9.0m    +2.0m   -20m:Sco, +2m:Cap, +13m:Aqu, +24m:Pis
+D12 lagna                  Tau                    -5.5m    +4.0m   -24m:Pis, -14m:Ari, +4m:Gem, +13m:Can, +22m:Leo
+D16 lagna                  Lib                    -0.5m    +6.5m   -29m:Gem, -22m:Can, -14m:Leo, -8m:Vir, +6m:Sco, +13m:Sag, +20m:Cap, +26m:Aqu
+D20 lagna                  Sco                    -3.5m    +2.0m   -26m:Can, -20m:Leo, -14m:Vir, -9m:Lib, +2m:Sag, +8m:Cap, +13m:Aqu, +18m:Pis, +24m:Ari, +30m:Tau
+D24 lagna                  Ari                    -0.5m    +4.0m   -29m:Lib, -24m:Sco, -20m:Sag, -14m:Cap, -10m:Aqu, -6m:Pis, +4m:Tau, +8m:Gem, +13m:Can, +18m:Leo ...
+D30 Trimsamsa lagna        Vir                   -24.5m    +2.0m   +2m:Pis
+D60 Shashtiamsa lagna      Sco                    -1.5m    +0.5m   -30m:Leo, -28m:Vir, -26m:Lib, -24m:Sco, -22m:Sag, -20m:Cap, -18m:Aqu, -16m:Pis, -14m:Ari, -13m:Tau ...
+Moon sign                  Vir                    <-90m    >+90m   
+Moon nakshatra-pada        Chitra-2               <-90m    >+90m   
+Moon D9                    Vir                    <-90m    >+90m   
+Arudha Lagna               Ari                   -43.5m   +66.0m   
+Upapada (A12)              Leo                   -43.5m   +66.0m   
+Placidus 10th cusp sign    Lib                   -89.0m   +28.0m   +28m:Sco
+
+ offset   time          asc      Lagna      Lagna         D9        D10         D7        D12         D3         D2        D30        D60   Placidus
+   -30m 21:05 03:34:39 Cap Uttara Ash      Su/Sa        Aqu        Lib        Can        Aqu        Cap        Can        Tau        Leo        Lib
+   -20m 21:15 06:10:40 Cap Uttara Ash      Su/Me        Aqu        Sco        Leo        Pis        Cap        Can        Vir        Cap        Lib
+   -15m 21:20 07:29:28 Cap Uttara Ash      Su/Ke        Pis        Sco        Leo        Pis        Cap        Can        Vir        Pis        Lib
+   -10m 21:25 08:48:49 Cap Uttara Ash      Su/Ve        Pis        Sco        Vir        Ari        Cap        Can        Vir        Gem        Lib
+    -5m 21:30 10:08:43 Cap Shravana-1      Mo/Mo        Ari        Sag        Vir        Tau        Tau        Can        Vir        Vir        Lib
+    +0m 21:35 11:29:10 Cap Shravana-1      Mo/Ma        Ari        Sag        Vir        Tau        Tau        Can        Vir        Sco        Lib
+    +5m 21:40 12:50:12 Cap Shravana-1      Mo/Ra        Ari        Cap        Vir        Gem        Tau        Can        Pis        Aqu        Lib
+   +10m 21:45 14:11:48 Cap Shravana-2      Mo/Ju        Tau        Cap        Lib        Gem        Tau        Can        Pis        Tau        Lib
+   +15m 21:50 15:33:59 Cap Shravana-2      Mo/Ju        Tau        Aqu        Lib        Can        Tau        Leo        Pis        Leo        Lib
+   +20m 21:55 16:56:46 Cap Shravana-3      Mo/Sa        Gem        Aqu        Lib        Can        Tau        Leo        Pis        Lib        Lib
+   +30m 22:05 19:44:04 Cap Shravana-3      Mo/Ke        Gem        Pis        Sco        Leo        Tau        Leo        Pis        Ari        Sco
+
+Vimshottari start dates vs birth-time offset
+   -60m  asc 25:58:38 Sag  Ra/Ma 18 Dec 2020  Ju 05 Jan 2022  Ju/Ju 05 Jan 2022  Ju/Sa 24 Feb 2024  Ju/Me 06 Sep 2026  Ju/Ke 12 Dec 2028  Ju/Ve 18 Nov 2029
+   -30m  asc 03:34:39 Cap  Ra/Ma 31 Oct 2020  Ju 18 Nov 2021  Ju/Ju 18 Nov 2021  Ju/Sa 07 Jan 2024  Ju/Me 20 Jul 2026  Ju/Ke 25 Oct 2028  Ju/Ve 01 Oct 2029
+   -15m  asc 07:29:28 Cap  Ra/Ma 07 Oct 2020  Ju 25 Oct 2021  Ju/Ju 25 Oct 2021  Ju/Sa 13 Dec 2023  Ju/Me 26 Jun 2026  Ju/Ke 01 Oct 2028  Ju/Ve 07 Sep 2029
+    +0m  asc 11:29:10 Cap  Ra/Ma 13 Sep 2020  Ju 01 Oct 2021  Ju/Ju 01 Oct 2021  Ju/Sa 19 Nov 2023  Ju/Me 02 Jun 2026  Ju/Ke 07 Sep 2028  Ju/Ve 13 Aug 2029
+   +15m  asc 15:33:59 Cap  Ra/Ma 20 Aug 2020  Ju 07 Sep 2021  Ju/Ju 07 Sep 2021  Ju/Sa 26 Oct 2023  Ju/Me 09 May 2026  Ju/Ke 14 Aug 2028  Ju/Ve 20 Jul 2029
+   +30m  asc 19:44:04 Cap  Ra/Ma 27 Jul 2020  Ju 14 Aug 2021  Ju/Ju 14 Aug 2021  Ju/Sa 02 Oct 2023  Ju/Me 15 Apr 2026  Ju/Ke 21 Jul 2028  Ju/Ve 26 Jun 2029
+   +60m  asc 28:20:14 Cap  Ra/Ma 09 Jun 2020  Ju 27 Jun 2021  Ju/Ju 27 Jun 2021  Ju/Sa 15 Aug 2023  Ju/Me 26 Feb 2026  Ju/Ke 02 Jun 2028  Ju/Ve 09 May 2029
