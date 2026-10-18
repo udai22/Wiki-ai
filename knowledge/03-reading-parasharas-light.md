@@ -126,9 +126,7 @@ Each line in the dasha panel is **planet + start date**. "Ju 1 Oct 2021" means t
 1. The Moon (Virgo 28°32′) is in Chitra, which is ruled by Mars. The Moon has traversed 5°12′ of the nakshatra's 13°20′, which is 39%.
 2. That leaves 61% of Mars's 7 years as the balance at birth: about 4 years 3 months, so the Mars dasha ends about late September 2003.
 3. Rahu's 18 years follow, from 2003 to 2021, then Jupiter from 2021 to 2037.
-4. An independent recomputation gives 27 Sep 2021, and PL shows 1 Oct.
-   - **Year length:** PL lets you choose the year length (365.25-day, 360-day *savana*, or sidereal), and the choice moves the date by a few days.
-   - **Moon degree:** each arc-minute of the Moon shifts the date by about 3 days.
+4. Why PL says **1 Oct**, not 27 Sep: PL measures the Moon's progress through Chitra by **time** (the fraction of the ~24 hours the Moon spends in the nakshatra, 38.9%) rather than by **arc** (39.0%). It also uses a **365.2422-day year**. This project's engine reproduces PL's dates to within ~10 minutes with these settings (`astro/dasha.py`, `method="time"`). The textbook arc method gives 27 Sep 2021.
 
 **Drilling down.** Clicking a mahadasha opens its **antardashas** (bhuktis):
 
@@ -260,7 +258,7 @@ PL's Gochara/kaksha panel shows exactly this: each transiting planet, its curren
 
 **Example.** If your PL is set to apply the exception, AL Aries holds Jupiter and Saturn. Jaimini authors read the 11th from AL (Aquarius) for gains and the 12th from AL (Pisces) for losses or expenses.
 
-If your screen shows **AL = Cancer** and **4P = Aries**, PL is using the raw count without the exception. That is a valid older convention; just know which one you are reading.
+Your screen shows **AL in Aries** with 4P and 10P in Capricorn, so PL is applying the exception (the engine matches all 12 arudhas exactly). With the raw count and no exception, AL would be Cancer and 4P Aries.
 
 For Scorpio and Aquarius, with the dual lords (Mars/Ketu, Saturn/Rahu), PL uses the stronger lord according to a rule set in preferences.
 
