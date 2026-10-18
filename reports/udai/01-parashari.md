@@ -12,8 +12,8 @@ The birth time may be off by a few minutes either way, so each claim below carri
 
 | Tag | What it rests on | How far the birth time can move |
 |---|---|---|
-| **[Robust]** | Rasi signs and houses, lordships, graha drishti, D1 yogas, the D9 and D10 signs of the planets, Moon nakshatra, ashtakavarga by sign | Lagna stays Capricorn from **−43 to +66 min** |
-| **[Moderate]** | Vimshottari dates (each 15 min shifts them by about 3–4 weeks), Arudha Lagna, Upapada | Hours. The structure holds and only the dates slide |
+| **[Robust]** | Rasi signs and houses, lordships, graha drishti, D1 yogas, the D9 and D10 signs of the planets, Moon nakshatra, ashtakavarga by sign, Arudha Lagna and Upapada (both depend only on the lagna sign) | Lagna stays Capricorn from **−43 to +66 min** |
+| **[Moderate]** | Vimshottari dates (each 15 min shifts them by about 3–4 weeks) | Hours. The structure holds and only the dates slide |
 | **[Time-sensitive]** | The D9 lagna, the D10 lagna, and anything counted from them | D9 is **Aries only from −5.5 to +7 min**: Pisces from −18 to −5.5, Taurus from +7 to +19. D10 is **Scorpio (−20 to −9), Sagittarius (−9 to +2), Capricorn (+2 to +13)**, then Aquarius |
 
 So everything in §1.1–1.4 comes from the rasi chart and holds across the whole plausible window. Only §1.5 depends on a precise birth time.
@@ -51,7 +51,7 @@ Jupiter's conjunction does not formally cancel the debilitation under any classi
 
 The D9 check is mixed [Robust]: Saturn's navamsa sign is Virgo, a friendly sign, neither exalted nor debilitated. The D10 check is notably strong [Robust]: **Saturn is exalted in the D10 (Libra)**, together with Venus in its own sign and Mars.
 
-**Synthesis.** The texts associate this pattern with a life lord who matures slowly. Early on, Saturn's themes may feel thin or delayed: steadiness, family resources (2nd lord), home and inner security (4th house). Over time the person builds an unusually well-earned competence. Five or six independent cancellation conditions apply, so by the rules this is a strong case of neecha-bhanga. It is still debilitation that has been cancelled, not exaltation. Saturn's own Vimshottari period begins around **Oct 2037** (±weeks, [Moderate]). That is when Rao's rule says to look for the cancellation's full results.
+**Synthesis.** The texts associate this pattern with a life lord who matures slowly. Early on, Saturn's themes may feel thin or delayed: steadiness, family resources (2nd lord), home and inner security (4th house). Over time the person builds an unusually well-earned competence. Five or six listed cancellation conditions apply, but they are not independent: they rest on three underlying placements (Mars in the 10th, Venus in the 7th, the Sun 10th from the Moon), plus the minor rule 9. Rule 6 follows automatically from Mars and Venus both being in lagna kendras, and rule 7 follows from Mars in Libra, which always aspects Aries. By the rules this is still a clear case of neecha-bhanga, but it is three confirmations, not six. It is still debilitation that has been cancelled, not exaltation. Saturn's own Vimshottari period begins around **Oct 2037** (±weeks, [Moderate]). That is when Rao's rule says to look for the cancellation's full results.
 
 ---
 
@@ -99,7 +99,8 @@ Neither Venus nor Mercury is combust. Venus is 45° from the Sun and Mercury 24.
 | **Kemadruma** | Nothing in the 2nd or 12th from the Moon | **Absent** (Mars is in the 2nd) |
 | Anapha / Durudhura | Planet in the 12th / in both | Absent (12th from the Moon is empty) |
 | Amala | Benefic in the 10th from the lagna or Moon | **Absent**: Mars and the Sun occupy those places |
-| Ruchaka / Malavya / Hamsa / Shasha / Bhadra | Own or exaltation sign in a kendra (BJ 13) | **All absent**, despite four planets being in kendras |
+| Sakata | Moon 6th, 8th or 12th from Jupiter, cancelled if the Moon is in a kendra from the lagna (PD) | **Present, mild, mitigated**: the Moon is 6th from Jupiter and in the 9th, so the yoga's own exception fails. Jupiter in a kendra from the lagna and a strong Moon give relief (see ch. 06 A3) |
+| Ruchaka / Malavya / Hamsa / Shasha / Bhadra | Own or exaltation sign in a kendra (BJ 13) | **All absent**, despite five planets being in kendras (seven bodies, counting the nodes) |
 | Budha-Aditya | Sun with Mercury | Absent (different signs) |
 | Chandra-Mangala | Moon with Mars, or in mutual aspect | Absent, though both are in Chitra |
 | Harsha / Vimala | 6th / 12th lord in a dusthana | Absent (Mercury is in the 7th, Jupiter in the 4th) |
@@ -112,7 +113,7 @@ Software often claims **Gaja Kesari** for this chart by counting from the lagna 
 
 The SAV total is the fixed 337, an average of about 28 per sign. The texts (BPHS ch. 66–72; PD ch. 23–24 on ashtakavarga) treat more than 28 as supportive and fewer than 25 as weak.
 
-- **Scorpio (11th) = 38**, by far the strongest sign. It is the house of gains, networks and aspirations. Several BAVs peak here: Moon 7, Mercury 7, Mars 6, Venus 6. Its lord Mars is the strong 10th-house planet. The common rule **11th > 12th** (38 vs 26) and the more refined **11th > 10th > 1st** both hold. Tradition reads this as a chart where effort turns into gains.
+- **Scorpio (11th) = 38**, by far the strongest sign. It is the house of gains, networks and aspirations. Several BAVs peak here: Moon 7, Mercury 7, Mars 6, Venus 6. Its lord Mars is the strong 10th-house planet. The common rule **11th > 12th** (38 vs 26) holds. The more refined **11th > 10th > 1st** fails, because the 10th (25) is below the lagna (27). Tradition reads this as a chart where effort turns into gains.
 - **Leo (8th) = 24** and **Virgo (9th) = 24**, the two lowest. A low 8th is not alarming in itself. Some authors even prefer a modest 8th. A low **9th** is the real nuance: the Moon, the Atmakaraka, sits in a sign with below-average support. Ashtakavarga logic says the 9th house's themes (teachers, fortune, higher learning, the father's line) come through effort and timing rather than as a given. It also says transits through Virgo, such as Saturn's next passage there at the end of the 2030s, count for less.
 - **Kendras:** lagna 27, 4th 31, 7th 28, 10th 25. The 4th, home of the debilitated lagna lord, scores above average, a quiet support for §1.1.
 - **Bindus in the planets' own BAVs:** Jupiter has 6 in Aries (strong). Saturn has only 3 in Aries, and just **1 in Libra**, its exaltation sign and the 10th house. Venus has 3 in Cancer, Mars 4 in Libra, and the Sun 6 in Gemini.
@@ -157,7 +158,7 @@ Two cautions. The D10 lagna turns over about every 11–13 minutes, so it is the
 ### Key findings
 
 - **Robust core:** Capricorn lagna, Saturn as lagna lord at 19°34′ Aries (within 0.5° of deepest debilitation), Venus as yogakaraka in the 7th with Mercury and a tight Rahu, Mars with dig bala and vargottama in the 10th. None of this changes within −43 to +66 min.
-- **Neecha-bhanga is strongly supported:** 5–6 conditions apply (Mars and Venus in lagna kendras, Sun 10th from the Moon, Mars–Venus in mutual kendras, Mars aspecting Saturn, navamsa lord Mercury in a kendra), and Saturn is exalted in D10. The texts disagree on whether this is a full raja yoga. Raman and Rao read it as strength reached after early delay, delivered most fully in Saturn's own period from around 2037.
-- **Real yogas:** dharma-karmadhipati (Venus–Mercury), Maha parivartana between the Moon and Mercury (7th–9th lords, often overlooked), Sarala (Sun in the 6th), Sunapha, Vesi, Pasa. **Absent though often claimed:** Gaja Kesari (Jupiter is 8th from the Moon), Ruchaka and all the other Mahapurusha yogas, Amala, and Kemadruma (which, being adverse, it is good to rule out).
+- **Neecha-bhanga is clearly supported:** 5–6 listed conditions apply (Mars and Venus in lagna kendras, Sun 10th from the Moon, Mars–Venus in mutual kendras, Mars aspecting Saturn, navamsa lord Mercury in a kendra). They are not independent: three placements (Mars in the 10th, Venus in the 7th, the Sun 10th from the Moon) generate all but the minor navamsa-lord rule. Saturn's exaltation in D10 is separate varga support, not a cancellation rule. The texts disagree on whether this is a full raja yoga. Raman and Rao read it as strength reached after early delay, delivered most fully in Saturn's own period from around 2037.
+- **Real yogas:** dharma-karmadhipati (Venus–Mercury), Maha parivartana between the Moon and Mercury (7th–9th lords, often overlooked), Sarala (Sun in the 6th), Sunapha, Vesi, Pasa. Sakata (Phaladeepika form) is present but mild and mitigated. **Absent though often claimed:** Gaja Kesari (Jupiter is 8th from the Moon), Ruchaka and all the other Mahapurusha yogas, Amala, and Kemadruma (which, being adverse, it is good to rule out).
 - **Ashtakavarga:** the 11th house (Scorpio) scores 38, the chart's standout gains house, and 11th > 12th holds. The 9th (Virgo, the Moon's sign) and 8th score only 24, so 9th-house fortune is a matter of effort and timing.
 - **Time-sensitive layer:** the D9 lagna (Pisces, Aries or Taurus) changes the reading of partnership and how much the navamsa supports Saturn, with Taurus the most supportive and Pisces the least. The D10 lagna (Scorpio, Sagittarius or Capricorn) moves the strong Libra group (Saturn exalted, Venus in its own sign, Mars) between the 12th, 11th and 10th. A Capricorn D10, from about +2 to +13 min, would be the strongest career signature and is worth testing in rectification.
