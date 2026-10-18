@@ -271,13 +271,12 @@ For Scorpio and Aquarius, with the dual lords (Mars/Ketu, Saturn/Rahu), PL uses 
 **How they are computed.**
 - Daytime (sunrise to sunset) and night-time are each divided into **8 parts**, ruled in a fixed weekday sequence.
 - By night the sequence begins with the lord of the 5th weekday from the birth weekday.
-- Gulika and Mandi are the **ascending degree at the start (Gulika) or the middle (Mandi) of Saturn's part**. Authorities differ on start, middle or end, and PL shows both because of this.
+- Authorities differ on how to compute them. PL (verified by this repo's engine, `astro/special.py`) takes **Gulika = the Lagna at the *end* of Saturn's part** and **Mandi = Phaladeepika's rule** (a fixed number of ghatis after sunset by weekday, scaled to the night's length). It uses Hindu sunset (disc centre, no refraction).
 
 **Reference chart.**
-- The birth was on a **Tuesday night**: sunset in Mumbai was about 19:19 IST, and birth was at 21:35.
-- On Tuesday night the *first* part (about 19:19–20:40) belongs to Saturn.
-- So Gulika ≈ the Lagna at sunset ≈ **Sagittarius 8°**, and Mandi (mid-part) ≈ **Sagittarius 17°**. Both fall in the **12th house**.
-- Small differences from PL's values come from its sunrise/sunset definition (disc centre or upper limb, refraction).
+- The birth was on a **Tuesday night**. Hindu sunset in Mumbai was 19:14:54 IST, and birth was at 21:35.
+- On Tuesday night the *first* part (19:14:54–20:36:21) belongs to Saturn.
+- **Gulika = Sagittarius 26°18′** (the Lagna at 20:36:21) and **Mandi = Sagittarius 17°02′**. Both match PL to the arcminute, and both fall in the **12th house**.
 
 **Meaning in tradition** (*Phaladeepika* ch. 25; BPHS ch. 3): Gulika is a malefic sensitive point. Its house is said to be afflicted, and its sign lord and transits over it are watched. Some also use it in birth-time rectification.
 
