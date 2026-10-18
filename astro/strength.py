@@ -1,7 +1,8 @@
 """Planetary and house strength: Shadbala, Ishta/Kashta phala, Vimshopaka bala and
 Bhava bala, after BPHS ch. 27-28 and B.V. Raman, *Graha and Bhava Balas*.
 
-All bala values are in virupas (shashtiamsas); 60 virupas = 1 rupa.
+All bala values are in virupas (shashtiamsas); 60 virupas = 1 rupa. Required minimums are
+the BPHS/Raman ones (Sun 6.5 rupas, not 5): PL's Sun ratio of 1.51 only fits with 6.5.
 
 Where the texts allow more than one reading, `Options` switches between them. The
 defaults are the combination that comes closest to Parashara's Light 9.0 on the reference
@@ -41,12 +42,15 @@ class Options:
     mercury_benefic: bool = True    # Mercury conjunct only Venus (benefic) and Rahu here
     hora: str = "equal"             # "equal" 1-hour horas from sunrise, or "unequal"
     abda_masa: str = "ahargana"     # "ahargana" (Raman's Kali-day count), "solar", "none"
-    tribhaga_night: tuple = ("Moon", "Venus", "Mars")
+    # BPHS/Raman give the night thirds to Moon, Venus, Mars. PL's numbers for the reference
+    # chart (Moon -60, Venus +60 relative to that) are reproduced only with Venus first.
+    tribhaga_night: tuple = ("Venus", "Moon", "Mars")
     ayana: str = "ecliptic"         # declination of the ecliptic point, or "true" (with latitude)
     sun_ayana_double: bool = True
     sun_chesta: bool = True         # Sun's chesta = its (single) ayana bala
     moon_chesta: bool = True        # Moon's chesta = its (single) paksha bala
-    chesta: str = "mean"            # "mean" (seeghra kendra from modern mean elements)
+    chesta: str = "helio"           # "mean": mean heliocentric planet (Meeus elements);
+                                    # "helio": true heliocentric (manda-corrected) planet
     drik_full_jup_mer: bool = False # add Jupiter's and Mercury's aspects in full, not 1/4
     special_aspects: str = "raman"  # extra virupas for Ma 4/8, Ju 5/9, Sa 3/10
 
@@ -139,8 +143,9 @@ def natonnata(chart, p, opt: Options):
         from_midnight = abs(ha - 180)           # degrees of time; 180 = noon
     else:
         t = sun_times(chart)
+        # midnight = middle of the night (for a day birth, of the night before, approx.)
         mid = (t["sunset"] + t["next_sunrise"]) / 2 if not t["is_day"] else \
-            (t["sunrise"] + (t["sunrise"] - 1 + (t["sunset"] - t["sunrise"]))) / 2
+            t["sunrise"] - (1 - (t["sunset"] - t["sunrise"])) / 2
         from_midnight = min(abs(chart.jd - mid) * 360, 180)
     day = from_midnight / 3                     # 0 at midnight, 60 at noon
     return day if p in ("Sun", "Jupiter", "Venus") else 60 - day
@@ -271,6 +276,10 @@ def chesta(chart, p, opt: Options):
     if p == "Moon":
         return paksha(chart, "Moon", replace(opt, moon_paksha_double=False))
     m = mean_longitudes(chart)
+    if opt.chesta == "helio":
+        pid = {"Mars": swe.MARS, "Mercury": swe.MERCURY, "Jupiter": swe.JUPITER,
+               "Venus": swe.VENUS, "Saturn": swe.SATURN}[p]
+        m[p] = swe.calc_ut(chart.jd, pid, chart.flags | swe.FLG_HELCTR)[0][0]
     if p in ("Mercury", "Venus"):
         seeghra, madhya = m[p], m["Sun"]
     else:
