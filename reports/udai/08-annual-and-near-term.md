@@ -10,10 +10,7 @@
 - eclipses, planetary stations and a monthly calendar
 - a short muhurta note
 
-Two cautions apply throughout:
-
-- **Short-range tools amplify timing error.** A pratyantar of three weeks carries the same ±3-week band as a mahadasha.
-- **These are descriptions, not verdicts.** Tajika Neelakanthi itself calls the year's results a *phala* (fruit) to be weighed against the natal promise. The annual chart can only ripen what the birth chart already holds.
+Two cautions: short-range tools amplify timing error (a three-week pratyantar carries the same ±3-week band as a mahadasha), and these are descriptions, not verdicts. The annual chart can only ripen what the birth chart already holds.
 
 *All positions are from Swiss Ephemeris through this repo's engine: Lahiri ayanamsa, true node, whole-sign houses counted from the natal Capricorn lagna unless marked "varsha H". Times are IST.*
 
@@ -420,21 +417,8 @@ A planet appears to stand still when it stations, and its effect on a natal degr
 
 ## 8.8 How to hold this
 
-- **The near term has a clear shape.**
-  - **Nov 2026 – Apr 2027** is the open, constructive phase: the yogakaraka's pratyantar, Jupiter back in Cancer, and the Venus Mudda.
-  - **Jun – Oct 2027** is the weighted phase: Saturn into Aries, Saturn rising in the annual chart, and stations on natal Jupiter and Mars.
-  - **Late Nov 2027** brings Jupiter onto the natal Moon, which eases things into 2028.
-- **The eclipses keep returning to one question:** who Udai is (1st) in relation to whom he works and partners with (7th).
-- **None of this is fixed.** Neelakanthi frames the annual chart as a ripening of the natal promise. Paracelsus's *sapiens dominabitur astris* applies here, as it does throughout this report.
+The shape is clear: **Nov 2026 – Apr 2027** is open and constructive (Venus pratyantar, Jupiter back in Cancer, Venus Mudda); **Jun – Oct 2027** is weighted (Saturn into Aries and rising in the annual chart); **late Nov 2027** eases things as Jupiter reaches the natal Moon. The eclipses keep asking one question: who Udai is (1st) in relation to whom he works and partners with (7th). Neelakanthi frames the annual chart as a ripening of the natal promise, not a decree; *sapiens dominabitur astris*.
 
 ---
 
-*Method notes:*
-- *Sidereal returns were solved by Newton iteration on `swe.calc_ut` with `SIDM_LAHIRI | FLG_SIDEREAL`, and the annual charts cast with `astro.chart.Chart`.*
-- *Day/night is from the Sun's altitude (`swe.azalt`).*
-- *Pratyantars are from `astro.dasha.vimshottari(depth=3, method="time")`.*
-- *Eclipses are from `swe.sol_eclipse_when_glob` and `swe.lun_eclipse_when`, with positions at maximum.*
-- *Stations are from sign changes in daily speed, refined by bisection.*
-- *Progressions use 365.2422 days per year, with angles by solar arc in right ascension (`swe.houses_armc`).*
-- *Ingress times are IST, so some fall a day later than the UTC dates in [04](04-timing.md); for example, Saturn enters Aries at 05:28 IST on 3 Jun 2027, which is 2 Jun UTC.*
-- *Scratch scripts: /tmp/udai/calc1–5.py.*
+*Method: sidereal returns by Newton iteration on `swe.calc_ut` (Lahiri), charts via `astro.chart.Chart`, day/night from `swe.azalt`; pratyantars from `astro.dasha.vimshottari(depth=3)`; eclipses from `swe.sol_eclipse_when_glob` / `swe.lun_eclipse_when`; stations by speed sign-change with bisection; progressions at 365.2422 d/yr with solar-arc angles. Ingress times are IST, so some fall a day after the UTC dates in [04](04-timing.md) (Saturn enters Aries 05:28 IST 3 Jun 2027 = 2 Jun UTC).*
