@@ -160,7 +160,9 @@ class Chart:
 
     # ---- Jaimini chara karakas (7-karaka scheme) ----
     def chara_karakas(self) -> dict[str, str]:
-        names = ["AK", "AmK", "BK", "MK", "PiK", "GK", "DK"]
+        # Classical 7-karaka scheme: the 5th karaka is PK (Putra, children).
+        # Parashara's Light labels this slot "PiK" on screen.
+        names = ["AK", "AmK", "BK", "MK", "PK", "GK", "DK"]
         seven = ["Sun", "Moon", "Mars", "Mercury", "Jupiter", "Venus", "Saturn"]
         ranked = sorted(seven, key=lambda p: self.points[p].deg, reverse=True)
         return dict(zip(names, ranked))

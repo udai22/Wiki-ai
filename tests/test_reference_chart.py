@@ -42,7 +42,7 @@ def test_dignity_avastha_karakas():
     assert [C.avastha(p) for p in ("Sun", "Moon", "Mercury", "Saturn")] == \
         ["Youth", "Infant", "Dead", "Old"]
     assert C.chara_karakas() == {"AK": "Moon", "AmK": "Venus", "BK": "Saturn", "MK": "Sun",
-                                 "PiK": "Jupiter", "GK": "Mars", "DK": "Mercury"}
+                                 "PK": "Jupiter", "GK": "Mars", "DK": "Mercury"}
 
 
 def test_nakshatra_kp():

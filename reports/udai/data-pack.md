@@ -10,7 +10,7 @@ Ayanamsa (lahiri): 23:50:58
   Mo 28:32:23 Vir Chitra p2  H9  Great friend Infant AK
   Ma 02:41:33 Lib Chitra p3  H10 Friend       Infant GK
   Me 01:28:12 Can Punarvasu p4  H7  Neutral      Dead   DK
-  Ju 05:12:43 Ari Ashwini p2  H4  Neutral      Infant PiK
+  Ju 05:12:43 Ari Ashwini p2  H4  Neutral      Infant PK
   Ve 21:49:00 Can Ashlesha p2  H7  Neutral      Youth  AmK
   Sa 19:34:27 Ari Bharani p2  H4  Debilitated  Old    BK
   Ra 20:05:17 Can Ashlesha p2  H7  Neutral      Youth  

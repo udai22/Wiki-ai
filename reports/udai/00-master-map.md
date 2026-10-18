@@ -2,7 +2,7 @@
 
 *Born 22 Jun 1999, 21:35 IST, Mumbai. Swiss Ephemeris, Lahiri ayanamsa, true node. Every value was computed by this repo's engine and checked against Parashara's Light 9.0.*
 
-**Read [GROUND-RULES.md](GROUND-RULES.md) first.**
+**Read [GROUND-RULES.md](GROUND-RULES.md) first.** Errors found by the [audit](10-audit-and-contradictions.md) have been corrected. All dates are in IST.
 
 This file combines five chapters, each read by the rules of one school:
 
@@ -24,7 +24,7 @@ The birth time may be a few minutes off, and chart factors move at very differen
 
 | Layer | Holds if the true time is… | What lives here |
 |---|---|---|
-| **Robust** | 21:05 – 22:41 (lagna Capricorn, −43 to +66 min) | Houses, lordships, yogas, aspects, the Moon and its nakshatra, karakas, karakamsa, Arudha Lagna and Upapada, ashtakavarga, Chara dasha sequence, Yogini dasha, Nadi combinations, double transits |
+| **Robust** | 20:51 – 22:41 (lagna Capricorn, −43.5 to +66 min) | Houses, lordships, yogas, aspects, the Moon and its nakshatra, karakas, karakamsa, Arudha Lagna and Upapada, ashtakavarga, Chara dasha sequence, Yogini dasha, Nadi combinations, double transits |
 | **Moderate** | dates slide but don't break | Vimshottari dates (≈ 3 weeks per 15 min), lagna nakshatra (Shravana from 21:29:30), Hellenistic Lots |
 | **Time-sensitive** | only a few minutes | Navamsa (D9) lagna, D10 career lagna, D12, D60, KP cusp sub-lords |
 
@@ -37,13 +37,13 @@ Osho made a similar three-way split: the essential (fixed), the semi-essential (
 ### 2.1 Saturn is the axis of the life
 - **Vedic:** Capricorn rising, so Saturn rules both the 1st and 2nd houses. It sits in the 4th within half a degree of its deepest debilitation point (Aries 20°), with Jupiter.
 - **Western:** Saturn rules the rising sign (Aquarius tropically) in every frame tested.
-- **Saturn's debilitation is cancelled several times over.** Five or six classical neecha-bhanga conditions apply (Phaladeepika ch. 7; Jataka Parijata):
+- **Saturn's debilitation is cancelled.** Five classical neecha-bhanga conditions apply (Phaladeepika ch. 7; Jataka Parijata). They rest on only three underlying placements (Mars in the 10th, Venus in the 7th, the Sun 10th from the Moon), so they are not five independent confirmations:
   - Mars, lord of Aries, is in a kendra (10th).
   - Venus, lord of Saturn's exaltation sign, is in a kendra (7th).
   - The Sun, which exalts in Aries, is 10th from the Moon.
   - Mars and Venus are in mutual kendras.
   - Mars aspects Saturn.
-  - Saturn is exalted in the D10.
+- **Separately (a supporting varga dignity, not a cancellation rule):** Saturn is exalted in the D10.
 - **Where the masters split:**
   - Phaladeepika and Jataka Parijata call this *neecha-bhanga raja yoga*.
   - Varahamihira has no such doctrine.
@@ -108,7 +108,7 @@ Each date is listed at the recorded time. Vimshottari dates carry a ±3-week ban
 |---|---|---|---|---|
 | **Now – 2027** | Ju/Me (Jun 2026 – Sep 2028) | Cancer MD begins Jun 2026 (AmK and DK sign; AL 10th from it) | Jupiter exalted in Cancer over Venus/Mercury; Rahu enters the lagna 25 Nov 2026 | Partnership, contracts and study open up; a self-redefinition starts |
 | **2027 – 2029** | Ju/Me → Ju/Ke | Taurus, then Aries sub-period (Saturn over the AL) | Saturn into Aries 2 Jun 2027 (ashtama from Moon); **Saturn return 29 Apr 2029**; Yogini Sankata from Jan 2027 | Pressured, structuring years. Three systems agree this is the testing stretch |
-| **Aug 2029 – Apr 2032** | **Ju/Ve** (yogakaraka) | Aquarius, then Capricorn sub-periods (gains, A10) | Jupiter and Rahu in Scorpio (SAV 38); double transits on the 5th, 7th and 11th, Sep 2030 – May 2032 | **The strongest window in the chart.** Vimshottari, Chara, Yogini and double transits all agree |
+| **Aug 2029 – Apr 2032** | **Ju/Ve** (yogakaraka) | Aquarius, then Capricorn sub-periods (gains, A10) | Jupiter and Rahu in Scorpio (SAV 38); double transits on the 5th, 7th and 11th, Sep 2030 – May 2032 | **The strongest window in the chart.** Vimshottari, K.N. Rao's Chara variant and double transits agree. Yogini is mixed: a difficult mahadasha (Sankata) with two favourable sub-periods inside it |
 | 2032 – 2035 | Ju/Su, Ju/Mo, Ju/Ma | rest of Cancer | 7th-house double transit Jul 2034 – Apr 2035; Jupiter return 27 Apr 2035 | Partnership milestones; home and property |
 | **2036 – 2043** | Ju/Ra → **Saturn MD (Oct 2037)** | Gemini, Taurus, then Aries 2039–45 (through the AL) | Sade Sati 27 Aug 2036 – Dec 2043; nodal return Oct 2036 | The lagna lord takes over: a demanding apprenticeship, then slow-built authority |
 
@@ -126,9 +126,9 @@ Each disagreement and how it affects this chart:
 - **Rahu's aspects** (some give it the 5th and 9th): this decides whether Rahu also touches the 11th and 3rd houses. Minor.
 - **Neecha-bhanga raja yoga** (Phaladeepika) vs. "cancelled weakness" (Raman, Rao): this sets how much to expect from Saturn. The consensus is "late but real".
 - **Jupiter as functional malefic** (lord of the 3rd and 12th, BPHS ch. 34) vs. benefic in a kendra aspecting the 10th: this decides the tone of the 2021–37 mahadasha. The chapters read it as **growth through effort**.
-- **The 7- vs 8-karaka scheme:** it changes only the labels for parents and children. AK, AmK and BK are the same either way.
+- **The 7- vs 8-karaka scheme:** in the 8-karaka scheme Rahu becomes MK and the Sun becomes PiK (father). Jupiter stays PK (children). AK, AmK and BK are the same either way.
 - **The Arudha exception rule:** with it, the AL is Aries (Parashara's Light uses this); without it, Cancer. All 12 arudhas on your screen match the exception.
-- **Chara dasha variants** (Scorpio's co-lord, Rao vs. SJC counting): these change which sign is "now" (Cancer, Libra or Leo). Every variant agrees that **Libra (career) and Cancer (partnership)** dominate 2013–2045.
+- **Chara dasha variants** (Scorpio's co-lord, Rao vs. SJC counting): these change which sign is "now" (Cancer, Libra or Leo). Libra (career) and Cancer (partnership) dominate most variants, but the SJC variants put Leo in the 2030s.
 - **Sidereal vs. tropical:**
   - Saturn is debilitated sidereally, comfortable tropically (Taurus).
   - The Sun is in Gemini sidereally, Cancer 0°48′ tropically.

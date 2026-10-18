@@ -1,6 +1,6 @@
 # 10 · Audit, contradictions and the skeptic's case
 
-*Udai · 22 Jun 1999, 21:35 IST, Mumbai. Audited 18 Oct 2026. Scope: 00–09, 11, 12, `data-pack.md`, `birth-time-sensitivity.txt` and `GROUND-RULES.md`, as they stood at 06:21 on 18 Oct 2026.*
+*Udai · 22 Jun 1999, 21:35 IST, Mumbai. Audited 18 Oct 2026. Scope: 00–09, 11, 12, `data-pack.md`, `birth-time-sensitivity.txt` and `GROUND-RULES.md`, as they stood at 06:21 on 18 Oct 2026. `data-pack-extra.md` (06:28) was used only to confirm the sunrise convention.*
 
 This chapter does three jobs. It checks the other chapters' facts against the engine. It asks where they go further than the traditions or the evidence allow. And it writes down the most checkable claims so they can be scored later, as [GROUND-RULES](GROUND-RULES.md) rule 4 requires.
 
@@ -54,7 +54,7 @@ Severity: **Wrong** means the statement is false as written. **Imprecise** means
 | 9 | L129, §5 | 7- vs 8-karaka "changes only the labels for parents and children" | Per ch. 02, PK (children) is Jupiter in both schemes. What changes is MK (Sun becomes Rahu), and PiK (the Sun) appears | Imprecise | "…changes only the parent labels (MK and PiK)" |
 | 10 | L131, §5 | "Every variant agrees that Libra and Cancer dominate 2013–2045" | SJC with Scorpio→Ketu: Scorpio 2011–21, Libra 2021–30, **Leo 2032–42**, Cancer only from 2042. SJC with Scorpio→Mars: **Leo 2023–33**. Libra appears in every variant, but in the 2030s Leo competes with Cancer | Overreach | "Libra runs in every variant at some point in 2012–31; the 2030s are Cancer or Leo depending on the variant" |
 | 11 | L118 | Barbault index "lifetime low in 2021" | Annual means for 1999–2040: 2021 = 508 (lowest), then 2022 = 511 and 2020 = 539 | OK | — |
-| 12 | L3 | "checked against Parashara's Light 9.0" | Cannot be verified from the repo. No PL output is stored | Unverifiable | Store PL screenshots or exports, or soften to "designed to match PL" |
+| 12 | L3 | "checked against Parashara's Light 9.0" | Partly documented. `data-pack-extra.md` (added 06:28) records PL comparisons for Gulika, Mandi, shadbala and sunrise. No PL output is stored for positions, dashas or vargas | Partly unverifiable | Store PL exports for the core tables, or soften to "designed to match PL" |
 
 ### 1.2 `01-parashari.md`
 
@@ -73,7 +73,7 @@ Severity: **Wrong** means the statement is false as written. **Imprecise** means
 | # | Line | Claim | Engine says | Severity | Suggested correction |
 |---|---|---|---|---|---|
 | 18 | L53 | The Moon is "roughly 3.7 hours of clock time from changing" navamsa | 3.7 h is the distance **backwards**. Forwards, the Moon leaves the Virgo navamsa, and Virgo itself, at **+175 min (≈00:30 IST on 23 Jun)** | Imprecise | "about 2.9 h after, or 3.7 h before" |
-| 19 | L203–208 | HL Virgo 22°45′ and GL Virgo 2°22′, "so the AK Moon occupies both"; HL in Virgo from −45 to +14 min | This holds only with sunrise at 06:02 (upper limb, with refraction). The engine's `special.special_lagnas` uses Hindu sunrise (disc centre, no refraction: **06:06 IST**), the Parashara's Light convention. That gives **HL Virgo 20°43′** and **GL Leo 27°17′**, with HL in Virgo from −41 to +19 min. Under that convention the Moon joins the HL only | Imprecise (convention) | State the sunrise convention, and say the double occupation depends on it |
+| 19 | L203–208 | HL Virgo 22°45′ and GL Virgo 2°22′, "so the AK Moon occupies both"; HL in Virgo from −45 to +14 min | This holds only with sunrise at 06:02 (upper limb, with refraction). The engine's `special.special_lagnas` uses Hindu sunrise (disc centre, no refraction: **06:06 IST**), the Parashara's Light convention (`data-pack-extra.md` confirms sunrise at 06:06:15). That gives **HL Virgo 20°43′** and **GL Leo 27°17′**, with HL in Virgo from −41 to +19 min. Under that convention the Moon joins the HL only | Imprecise (convention) | State the sunrise convention, and say the double occupation depends on it |
 | 20 | L249 | "Saturn returns to Aries, the natal AL, around 2028" | Saturn enters Aries on 3 Jun 2027 (IST), retrogrades into Pisces 20 Oct 2027, and re-enters on 23 Feb 2028 | Imprecise | "enters Aries Jun 2027, settles there from Feb 2028" |
 | 21 | L254 | The Aries antardasha (Feb – Dec 2028) is "coinciding with Saturn's return over it" | Saturn is *in* Aries then. The exact return (19°34′) is on 29 Apr 2029, inside the **Pisces** antardasha (Dec 2028 – Oct 2029) | Imprecise | "coinciding with Saturn's transit of the AL; the exact return falls in the next sub-period" |
 | 22 | L284 | "All four variants agree…" | See #10 | Overreach | As #10 |
@@ -155,7 +155,7 @@ Severity: **Wrong** means the statement is false as written. **Imprecise** means
 
 | # | Topic | Where | What disagrees | Type | Resolution |
 |---|---|---|---|---|---|
-| C1 | Saturn's condition | 01, 04, 06 vs 05 | Debilitated (sidereal Aries) vs supported in Venus's sign (tropical Taurus) | **Genuine**, between zodiacs | 05 handles it well. 06 L375 and 00 L136 ("survives in both") paper over it |
+| C1 | Saturn's condition | 01, 04, 06 vs 05 | Debilitated (sidereal Aries) vs supported in Venus's sign (tropical Taurus) | **Genuine**, between zodiacs | 05 handles it well. 06 L375 and 00 L135 ("survives in both") paper over it |
 | C2 | Jupiter's mahadasha | 01, 04, 09 | Functional malefic (BPHS 34) vs benefic in a kendra | **Genuine** | Presented well |
 | C3 | Rahu beside Venus | 01, 03, 06 | Yoga-giving node (BPHS 34) vs eclipsing conjunction | **Genuine** | Presented well |
 | C4 | Neecha-bhanga conditions | 00 L40–46, 01 L31–41, 04 L30 | Three different lists. The 6th item is D10 exaltation in 00, the navamsa-lord rule in 01, and "Mars in Libra" in 04 | **Error** | Use 01's table everywhere and add the independence caveat (#16) |
@@ -186,7 +186,7 @@ Severity: **Wrong** means the statement is false as written. **Imprecise** means
 - **"Independent" cancellation conditions** (01 L54). They are logically linked (#16). Counting the same placement twice inflates the case.
 - **Modern career mappings presented through classical vocabulary:**
   - "Rahu + Mercury → computing and networks" (03 L118). This one is flagged as modern, which is fine.
-  - Chitra → "designer, maker, analyst" (00 L66, 03 L267). This is Sutton's modern gloss, not the Taittiriya Brahmana's.
+  - Chitra → "designer, maker, analyst" (00 L68, 03 L267). This is Sutton's modern gloss, not the Taittiriya Brahmana's.
   - "Technical design, systems engineering, or the business and finance of technical products" (09 L217).
   - "Exchange or partner risk … fits a trading business literally" (12 L27). This is **post-hoc fitting**: the reading was written after the business was known.
 - **"5th house empty → speculative gains via partnerships, not solo bets"** (12 L14). The classical texts give no such rule.
@@ -198,9 +198,9 @@ Each of these reads as personal, but would ring true for most people of this age
 
 | Where | Statement |
 |---|---|
-| 00 L49; 01 L54 | "competence that is built slowly and earned, not given" |
-| 00 L66; 03 L40 | "shadow is perfectionism and restlessness" |
-| 00 L71; 02 L114–115 | "a reserved self… seen as principled, older than his years" |
+| 00 L51; 01 L54 | "competence that is built slowly and earned, not given" |
+| 00 L68; 03 L40 | "shadow is perfectionism and restlessness" |
+| 00 L73; 02 L114–115 | "a reserved self… seen as principled, older than his years" |
 | 02 L146 | "he takes commitment seriously and holds it together himself" |
 | 03 L48 | "a mind that recovers from setbacks" |
 | 06 L308 | "a quick, wiry, driven system that does well with routine, warmth, regular meals and sleep" |
