@@ -2,6 +2,8 @@
 
 *Born 22 Jun 1999, 21:35 IST, Mumbai. Swiss Ephemeris, Lahiri ayanamsa, true node. Every value was computed by this repo's engine and checked against Parashara's Light 9.0.*
 
+**Read [GROUND-RULES.md](GROUND-RULES.md) first.**
+
 This file combines five chapters, each read by the rules of one school:
 
 | # | Chapter | Masters |
