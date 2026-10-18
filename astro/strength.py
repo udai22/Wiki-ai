@@ -20,7 +20,7 @@ from .special import HORA_ORDER, WEEKDAY_LORD, sripati, sun_times
 from .vargas import varga_sign
 
 SEVEN = ["Sun", "Moon", "Mars", "Mercury", "Jupiter", "Venus", "Saturn"]
-REQUIRED_RUPAS = {"Sun": 5, "Moon": 6, "Mars": 5, "Mercury": 7, "Jupiter": 6.5,
+REQUIRED_RUPAS = {"Sun": 6.5, "Moon": 6, "Mars": 5, "Mercury": 7, "Jupiter": 6.5,
                   "Venus": 5.5, "Saturn": 5}
 NAISARGIKA = {"Sun": 60, "Moon": 360 / 7, "Venus": 300 / 7, "Jupiter": 240 / 7,
               "Mercury": 180 / 7, "Mars": 120 / 7, "Saturn": 60 / 7}
